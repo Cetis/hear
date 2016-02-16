@@ -68,7 +68,7 @@ Further information about the HEAR:
 -   [Scope for HEAR Technical
     Group](http://www.alanpaull.co.uk/HEAR/documents/HearTechSpecScope0.1.doc "http://www.alanpaull.co.uk/HEAR/documents/HearTechSpecScope0.1.doc") (MS Word document, .doc)
 -   [The Higher Education Achievement Report (HEAR): an ‚Äòupdate
-    pack‚Äô for trial institutions, including Guidance to
+    pack‚ for trial institutions, including Guidance to
     Institutions](http://www.alanpaull.co.uk/HEAR/documents/Integrated_HEAR_UPDATE_Pack_140411.pdf "http://www.alanpaull.co.uk/HEAR/documents/Integrated_HEAR_UPDATE_Pack_140411.pdf") (PDF)
 -   [Guidelines on a European Learner Mobility
     model](http://www.alanpaull.co.uk/HEAR/documents/20100427_CWA_EuroLM_Guidelines_Core-Final.doc "http://www.alanpaull.co.uk/HEAR/documents/20100427_CWA_EuroLM_Guidelines_Core-Final.doc") (MS Word document, .doc)
