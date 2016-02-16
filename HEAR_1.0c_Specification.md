@@ -246,9 +246,7 @@ XML Document Structure
 
 This section defines the root achievementReport element and relates the
 main information elements of the HEAR XML document structure to this
-root element. Definitions of the other elements are given in [Definition
-of Common
-Elements](HEAR_1.0c_Specification#Definition_of_Common_Elements "http://www.xcri.org/HEAR_1.0c_Specification#Definition_of_Common_Elements") and [Definition of Other
+root element. Definitions of the other elements are given in [Definition of Common Elements](HEAR_1.0c_Specification#Definition_of_Common_Elements "http://www.xcri.org/HEAR_1.0c_Specification#Definition_of_Common_Elements") and [Definition of Other
 Elements](HEAR_1.0c_Specification#Definition_of_Other_Elements "http://www.xcri.org/HEAR_1.0c_Specification#Definition_of_Other_Elements") sections.
 
 A HEAR XML document includes information drawn from Student Records
@@ -412,7 +410,7 @@ SHOULD be the institution awarding the qualification.
     2=Formative, 3=Deleted.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=19 "Edit section: Definition of Common Elements")\] Definition of Common Elements
+<a name="Definition of Common Elements">Definition of Common Elements<a>
 =================================================================================================================================================================================================================================================
 
 Many of the elements in the HEAR use the following common elements. Also
