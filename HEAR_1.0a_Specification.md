@@ -5,8 +5,6 @@ layout: default
 
 
 
-
-
 HEAR 1.0a Specification 
 =======================
 
@@ -15,210 +13,16 @@ HEAR 1.0a Specification
 ### From Xcri 
 
 
-
-
-
-
-
-Jump to: [navigation](HEAR_1.0a_Specification#column-one),
-[search](HEAR_1.0a_Specification#searchInput)
-
-
-
-+--------------------------------------------------------------------------+
-|                                                       |
-|                                                                          |
-| Contents                                                                 |
-| --------                                                                 |
-|                                                                          |
-|                                                                    |
-|                                                                          |
-| -   [1 About](HEAR_1.0a_Specification#About)         |
-|     -   [1.1 Status](HEAR_1.0a_Specification#Status)   |
-|     -   [1.2 Patents](HEAR_1.0a_Specification#Patents) |
-|     -   [1.3 Copyright and                                    |
-|         License](HEAR_1.0a_Specification#Copyright_and_License)   |
-|     -   [1.4 Inspiration and                                  |
-|         acknowledgements](HEAR_1.0a_Specification#Inspiration_and |
-| _acknowledgements)                                                       |
-|     -   [1.5 Introduction](HEAR_1.0a_Specification#Int |
-| roduction)                                                               |
-| -   [2 Conformance](HEAR_1.0a_Specification#Conforma |
-| nce)                                                                     |
-| -   [3 HEAR         |
-|     Documents](HEAR_1.0a_Specification#HEAR_Documents)            |
-|     -   [3.1 The    |
-|         HEAR Template](HEAR_1.0a_Specification#The_HEAR_Template) |
-|         -   [3.1.1 Contextual                                   |
-|             Information](HEAR_1.0a_Specification#Contextual_Infor |
-| mation)                                                                  |
-|     -   [3.2 XML    |
-|         Document                                                         |
-|         Structure](HEAR_1.0a_Specification#XML_Document_Structure |
-| )                                                                        |
-|     -   [3.3 Core   |
-|         elements](HEAR_1.0a_Specification#Core_elements)          |
-|         -   [3.3.1 the &lt;achievementReport&gt;                |
-|             element](HEAR_1.0a_Specification#the_.3CachievementRe |
-| port.3E_element)                                                         |
-|             -   [3.3.1.1 Definition](HEAR_1.0a_Specificati |
-| on#Definition)                                                           |
-|             -   [3.3.1.2 Core elements used within the            |
-|                 achievementReport                                        |
-|                 element](HEAR_1.0a_Specification#Core_elements_us |
-| ed_within_the_achievementReport_element)                                 |
-|     -   [3.4 Specification of elements below the root         |
-|         element](HEAR_1.0a_Specification#Specification_of_element |
-| s_below_the_root_element)                                                |
-|         -   [3.4.1 the &lt;issuer&gt;                           |
-|             element](HEAR_1.0a_Specification#the_.3Cissuer.3E_ele |
-| ment)                                                                    |
-|             -   [3.4.1.1 Definition](HEAR_1.0a_Specificati |
-| on#Definition_2)                                                         |
-|             -   [3.4.1.2 Constraints](HEAR_1.0a_Specificat |
-| ion#Constraints)                                                         |
-|             -   [3.4.1.3 Namespaces](HEAR_1.0a_Specificati |
-| on#Namespaces)                                                           |
-|             -   [3.4.1.4 Sub-elements used in the &lt;issuer&gt;  |
-|                 element](HEAR_1.0a_Specification#Sub-elements_use |
-| d_in_the_.3Cissuer.3E_element)                                           |
-|         -   [3.4.2 the &lt;learner&gt;                          |
-|             element](HEAR_1.0a_Specification#the_.3Clearner.3E_el |
-| ement)                                                                   |
-|             -   [3.4.2.1 Definition](HEAR_1.0a_Specificati |
-| on#Definition_3)                                                         |
-|             -   [3.4.2.2 Constraints](HEAR_1.0a_Specificat |
-| ion#Constraints_2)                                                       |
-|             -   [3.4.2.3 Namespaces](HEAR_1.0a_Specificati |
-| on#Namespaces_2)                                                         |
-|             -   [3.4.2.4 Sub-elements used in the &lt;learner&gt; |
-|                 element](HEAR_1.0a_Specification#Sub-elements_use |
-| d_in_the_.3Clearner.3E_element)                                          |
-|         -   [3.4.3 the &lt;qualification&gt;                    |
-|             element](HEAR_1.0a_Specification#the_.3Cqualification |
-| .3E_element)                                                             |
-|             -   [3.4.3.1 Definition](HEAR_1.0a_Specificati |
-| on#Definition_4)                                                         |
-|             -   [3.4.3.2 Constraints](HEAR_1.0a_Specificat |
-| ion#Constraints_3)                                                       |
-|             -   [3.4.3.3 Namespaces](HEAR_1.0a_Specificati |
-| on#Namespaces_3)                                                         |
-|             -   [3.4.3.4 Sub-elements used in the                 |
-|                 &lt;qualification&gt;                                    |
-|                 element](HEAR_1.0a_Specification#Sub-elements_use |
-| d_in_the_.3Cqualification.3E_element)                                    |
-|             -   [3.4.3.5 Attributes](HEAR_1.0a_Specificati |
-| on#Attributes)                                                           |
-|         -   [3.4.4 the &lt;provider&gt;                         |
-|             element](HEAR_1.0a_Specification#the_.3Cprovider.3E_e |
-| lement)                                                                  |
-|             -   [3.4.4.1 Definition](HEAR_1.0a_Specificati |
-| on#Definition_5)                                                         |
-|             -   [3.4.4.2 Constraints](HEAR_1.0a_Specificat |
-| ion#Constraints_4)                                                       |
-|             -   [3.4.4.3 Namespaces](HEAR_1.0a_Specificati |
-| on#Namespaces_4)                                                         |
-|             -   [3.4.4.4 Sub-elements used in the                 |
-|                 &lt;provider&gt;                                         |
-|                 element](HEAR_1.0a_Specification#Sub-elements_use |
-| d_in_the_.3Cprovider.3E_element)                                         |
-|             -   [3.4.4.5 Attributes](HEAR_1.0a_Specificati |
-| on#Attributes_2)                                                         |
-|         -   [3.4.5 the &lt;course&gt;                           |
-|             element](HEAR_1.0a_Specification#the_.3Ccourse.3E_ele |
-| ment)                                                                    |
-|             -   [3.4.5.1 Definition](HEAR_1.0a_Specificati |
-| on#Definition_6)                                                         |
-|             -   [3.4.5.2 Constraints](HEAR_1.0a_Specificat |
-| ion#Constraints_5)                                                       |
-|             -   [3.4.5.3 Namespaces](HEAR_1.0a_Specificati |
-| on#Namespaces_5)                                                         |
-|             -   [3.4.5.4 Sub-elements used in the &lt;course&gt;  |
-|                 element at Programme                                     |
-|                 Level](HEAR_1.0a_Specification#Sub-elements_used_ |
-| in_the_.3Ccourse.3E_element_at_Programme_Level)                          |
-|             -   [3.4.5.5 Sub-elements used in the &lt;course&gt;  |
-|                 element at other                                         |
-|                 levels](HEAR_1.0a_Specification#Sub-elements_used |
-| _in_the_.3Ccourse.3E_element_at_other_levels)                            |
-|             -   [3.4.5.6 Sub-elements used in the                 |
-|                 &lt;presentation&gt; element at Programme                |
-|                 Level](HEAR_1.0a_Specification#Sub-elements_used_ |
-| in_the_.3Cpresentation.3E_element_at_Programme_Level)                    |
-|             -   [3.4.5.7 Sub-elements used in the                 |
-|                 &lt;presentation&gt; element at other                    |
-|                 levels](HEAR_1.0a_Specification#Sub-elements_used |
-| _in_the_.3Cpresentation.3E_element_at_other_levels)                      |
-|         -   [3.4.6 the &lt;assessment&gt;                       |
-|             element](HEAR_1.0a_Specification#the_.3Cassessment.3E |
-| _element)                                                                |
-|             -   [3.4.6.1 Definition](HEAR_1.0a_Specificati |
-| on#Definition_7)                                                         |
-|             -   [3.4.6.2 Constraints](HEAR_1.0a_Specificat |
-| ion#Constraints_6)                                                       |
-|             -   [3.4.6.3 Namespaces](HEAR_1.0a_Specificati |
-| on#Namespaces_6)                                                         |
-|             -   [3.4.6.4 Sub-elements used in the                 |
-|                 &lt;assessment&gt;                                       |
-|                 element](HEAR_1.0a_Specification#Sub-elements_use |
-| d_in_the_.3Cassessment.3E_element)                                       |
-|             -   [3.4.6.5 Attributes](HEAR_1.0a_Specificati |
-| on#Attributes_3)                                                         |
-|         -   [3.4.7 the &lt;additionalInformation&gt;            |
-|             element](HEAR_1.0a_Specification#the_.3CadditionalInf |
-| ormation.3E_element)                                                     |
-|             -   [3.4.7.1 Definition](HEAR_1.0a_Specificati |
-| on#Definition_8)                                                         |
-|             -   [3.4.7.2 Constraints](HEAR_1.0a_Specificat |
-| ion#Constraints_7)                                                       |
-|             -   [3.4.7.3 Namespaces](HEAR_1.0a_Specificati |
-| on#Namespaces_7)                                                         |
-|             -   [3.4.7.4 Sub-elements used in the                 |
-|                 &lt;additionalInformation&gt;                            |
-|                 element](HEAR_1.0a_Specification#Sub-elements_use |
-| d_in_the_.3CadditionalInformation.3E_element)                            |
-|         -   [3.4.8 the &lt;certificationOftheHEAR&gt;           |
-|             element](HEAR_1.0a_Specification#the_.3Ccertification |
-| OftheHEAR.3E_element)                                                    |
-|             -   [3.4.8.1 Definition](HEAR_1.0a_Specificati |
-| on#Definition_9)                                                         |
-|             -   [3.4.8.2 Constraints](HEAR_1.0a_Specificat |
-| ion#Constraints_8)                                                       |
-|             -   [3.4.8.3 Sub-elements used in the                 |
-|                 &lt;certificationOftheHEAR&gt;                           |
-|                 element](HEAR_1.0a_Specification#Sub-elements_use |
-| d_in_the_.3CcertificationOftheHEAR.3E_element)                           |
-| -   [4 XML Schema   |
-|     and                                                                  |
-|     Instance](HEAR_1.0a_Specification#XML_Schema_and_Instance)    |
-+--------------------------------------------------------------------------+
-
-
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=1 "Edit section: About")\] About
+About
 ================================================================================================================================================================================================
 
-*Back to [HEAR
-home](HEAR "http://www.xcri.org/HEAR")*
 
-Editors:
-
--   Scott Wilson (scott.bradley.wilson@gmail.com)
--   Alan Paull (alan@alanpaull.co.uk)
--   Richard Entwistle (richard.entwistle@igsl.co.uk)
-
-Authors:
-
--   Scott Wilson (scott.bradley.wilson@gmail.com)
--   Alan Paull (alan@alanpaull.co.uk)
--   Richard Entwistle (richard.entwistle@igsl.co.uk)
-
-
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=2 "Edit section: Status")\] Status
+### Status
 
 This is currently a working draft of version 1.0a.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=3 "Edit section: Patents")\] Patents
+### Patents
 
 This specification is subject to a royalty free patent policy.
 
@@ -227,23 +31,21 @@ part of this work may be subject to an existing or pending patent,
 please email the editors.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=4 "Edit section: Copyright and License")\] Copyright and License
+### Copyright and License
 
 TBC
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=5 "Edit section: Inspiration and acknowledgements")\] Inspiration and acknowledgements
+### Inspiration and acknowledgements
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=6 "Edit section: Introduction")\] Introduction
+Introduction
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=7 "Edit section: Conformance")\] Conformance
+Conformance
 ============================================================================================================================================================================================================
 
-*Back to [HEAR
-home](HEAR "http://www.xcri.org/HEAR")*
 
 There are two classes of application that can conform to this
 specification:
@@ -275,7 +77,7 @@ A **conforming consumer** MUST be capable of processing *strictly
 conforming instances*.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=8 "Edit section: HEAR Documents")\] HEAR Documents
+HEAR Documents
 ==================================================================================================================================================================================================================
 
 A producer MUST create HEAR documents that are valid XML documents.
@@ -288,7 +90,7 @@ as its top-level element:
 A consumer MUST be able to process a valid HEAR XML document.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=9 "Edit section: The HEAR Template")\] The HEAR Template
+The HEAR Template
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 *This section is non-normative*
@@ -298,13 +100,11 @@ HEAR data; it does not define the structure of the HEAR document per se.
 The following information is provided to give context to the
 specification of the data elements. Readers are asked to refer to the
 [HEAR Guidance
-Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"){.external
-.text} for more details.
+Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf") for more details.
 
 A HEAR must adhere to the prescribed template described in the [HEAR
 Guidance
-Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"){.external
-.text}. The Guidance defines the sections of the HEAR and requires that
+Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"). The Guidance defines the sections of the HEAR and requires that
 sections are numbered and follow the sequence and explanatory guidance
 given in the Guidance Document.
 
@@ -323,15 +123,13 @@ The structure of the template for a HEAR is as follows:
 On output for printing or for viewing electronically a HEAR should
 contain section numbering and standard statements as described in the
 [HEAR Guidance
-Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"){.external
-.text}.
+Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf")
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=10 "Edit section: Contextual Information")\] Contextual Information
+### Contextual Information
 
 The [HEAR Guidance
-Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"){.external
-.text} gives details of statements that should be included in the HEAR
+Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf") gives details of statements that should be included in the HEAR
 at specified points, for example a standard statement at the start of
 the HEAR should be included in order to meet the requirements of the
 European Diploma Supplement (DS). Information about these statements is
@@ -358,9 +156,7 @@ sections should be provided. Where information is not provided, an
 explanation should give the reason why.*
 
 
-
-
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=11 "Edit section: XML Document Structure")\] XML Document Structure
+XML Document Structure
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 This section describes diagrammatically the main information elements of
@@ -378,25 +174,24 @@ other accredited achievements for each completed learning opportunity,
 and information about the awarding and providing organisations
 themselves.
 
-[![Image:HEAROutlineInformationModel2011-02-17.png](http://www.xcri.org/wiki/images/4/42/HEAROutlineInformationModel2011-02-17.png){width="449"
-height="485"}](./Image:HEAROutlineInformationModel2011-02-17.png "Image:HEAROutlineInformationModel2011-02-17.png")
+[![Image:HEAROutlineInformationModel2011-02-17.png](images/HEAROutlineInformationModel2011-02-17.png)]
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=12 "Edit section: Core elements")\] Core elements
+Core elements
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=13 "Edit section: the &lt;achievementReport&gt; element")\] the &lt;achievementReport&gt; element
+### the &lt;achievementReport&gt; element
 
 *URI: \[to be completed\]*
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=14 "Edit section: Definition")\] Definition
+#### Definition
 
 The default root element for a HEAR.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=15 "Edit section: Core elements used within the achievementReport element")\] Core elements used within the achievementReport element
+#### Core elements used within the achievementReport element
 
 -   issuer (required, one only)
 -   learner (required, one only)
@@ -416,41 +211,35 @@ components of a HEAR are clearly indicated. Some of these elements are
 sub-elements of top level elements, as noted in this guidance.
 
 **awardedBy:** A component of qualification (see
-[XCRI-CAP](XCRI_CAP_1.2#the_.3Cqualification.3E_element "http://www.xcri.org/XCRI_CAP_1.2#the_.3Cqualification.3E_element"){.external
-.text} specification).
+[XCRI-CAP](XCRI_CAP_1.2#the_.3Cqualification.3E_element "http://www.xcri.org/XCRI_CAP_1.2#the_.3Cqualification.3E_element") specification).
 
 **qualification:** A component of course (see
-[XCRI-CAP](XCRI_CAP_1.2#the_.3Cqualification.3E_element "http://www.xcri.org/XCRI_CAP_1.2#the_.3Cqualification.3E_element"){.external
-.text} specification).
+[XCRI-CAP](XCRI_CAP_1.2#the_.3Cqualification.3E_element "http://www.xcri.org/XCRI_CAP_1.2#the_.3Cqualification.3E_element") specification).
 
 **course:** A component of provider (see
-[XCRI-CAP](XCRI_CAP_1.2#the_.3Ccourse.3E_element "http://www.xcri.org/XCRI_CAP_1.2#the_.3Ccourse.3E_element"){.external
-.text} specification).
+[XCRI-CAP](XCRI_CAP_1.2#the_.3Ccourse.3E_element "http://www.xcri.org/XCRI_CAP_1.2#the_.3Ccourse.3E_element") specification).
 
 **assessment:** A component of presentation (see
-[XCRI-CAP](XCRI_CAP_1.2#the_.3Cassessment.3E_element "http://www.xcri.org/XCRI_CAP_1.2#the_.3Cassessment.3E_element"){.external
-.text} specification)
+[XCRI-CAP](XCRI_CAP_1.2#the_.3Cassessment.3E_element "http://www.xcri.org/XCRI_CAP_1.2#the_.3Cassessment.3E_element") specification)
 
 **Absence of provider:** Where a provider is not specified, consumers
 SHOULD interpret this as meaning that the awardingBody is also the
 provider.
 
 
-
-
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=16 "Edit section: Specification of elements below the root element")\] Specification of elements below the root element
+Specification of elements below the root element
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=17 "Edit section: the &lt;issuer&gt; element")\] the &lt;issuer&gt; element
+### the &lt;issuer&gt; element
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=18 "Edit section: Definition")\] Definition
+#### Definition
 
 The organisation that is responsible for producing the HEAR.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=19 "Edit section: Constraints")\] Constraints
+#### Constraints
 
 A valid HEAR MUST contain one and only one issuer instance.
 
@@ -458,14 +247,14 @@ An issuer instance MUST contain the sub-elements defined below and no
 other elements.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=20 "Edit section: Namespaces")\] Namespaces
+#### Namespaces
 
 Uses namespace dc: 
 
 Uses namespace dcterms: 
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=21 "Edit section: Sub-elements used in the &lt;issuer&gt; element")\] Sub-elements used in the &lt;issuer&gt; element
+#### Sub-elements used in the &lt;issuer&gt; element
 
 -   identifier, dc\#identifier (required, multiple)
 -   title, dc\#title (required, multiple)
@@ -484,15 +273,15 @@ the qualification MUST be contained in the provider element.
 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=22 "Edit section: the &lt;learner&gt; element")\] the &lt;learner&gt; element
+### the &lt;learner&gt; element
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=23 "Edit section: Definition")\] Definition
+#### Definition
 
 Information identifying the holder of the qualification.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=24 "Edit section: Constraints")\] Constraints
+#### Constraints
 
 A valid HEAR MUST contain one and only one learner instance.
 
@@ -500,7 +289,7 @@ A learner instance MUST contain the sub-elements defined below and no
 other elements.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=25 "Edit section: Namespaces")\] Namespaces
+#### Namespaces
 
 Uses namespace elm: European Learner Mobility Achievement Information
 (EuroLMAI).
@@ -517,8 +306,7 @@ Uses namespace dcterms:
 
 Note The elm namespace relates to the European Learner Mobility
 Achievement Information (EuroLMAI), for which see [CWA
-16132](http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf "http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf"){.external
-.text}. The elements in hear:learner are fully compatible and strictly
+16132](http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf "http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf"). The elements in hear:learner are fully compatible and strictly
 compliant with the elm:Learner profile, which specifies vCard properties
 for these elements, including Identifier. These are UK-specific
 implementations.
@@ -526,7 +314,7 @@ implementations.
 
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=26 "Edit section: Sub-elements used in the &lt;learner&gt; element")\] Sub-elements used in the &lt;learner&gt; element
+#### Sub-elements used in the &lt;learner&gt; element
 
 -   **[identifier](Identifier_(HEAR) "Identifier (HEAR)")** (required,
     at least one), dc\#identifier. Unique identifier for the learner.
@@ -576,15 +364,15 @@ also be included.
 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=27 "Edit section: the &lt;qualification&gt; element")\] the &lt;qualification&gt; element
+### the &lt;qualification&gt; element
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=28 "Edit section: Definition")\] Definition
+#### Definition
 
 A status awarded to or conferred on a learner by an awarding body.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=29 "Edit section: Constraints")\] Constraints
+#### Constraints
 
 A valid HEAR MUST contain one and only one qualification instance.
 Instances of associate qualifications or other achievements not forming
@@ -602,18 +390,16 @@ achieved by a learner as a result of completion of one and only one top
 level course.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=30 "Edit section: Namespaces")\] Namespaces
+#### Namespaces
 
 Uses namespace xcri: .
 
 Uses namespace elm: European Learner Mobility Achievement Information
 (EuroLMAI), for which see [CWA
-16132](http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf "http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf"){.external
-.text}.
+16132](http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf "http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf").
 
 Uses namespace eds: [European Diploma
-Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp "http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp"){.external
-.text}
+Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp "http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp")
 
 Uses namespace dc: 
 
@@ -624,18 +410,15 @@ Uses namespace dcterms:
 
 Note XCRI refers to the [eXchanging Course Related Information -
 Course Advertising Profile (XCRI-CAP v1.1) eProspectus
-standard](http://www.xcri.org/wiki/ "http://www.xcri.org/wiki/"){.external
-.text}.
+standard](http://www.xcri.org/wiki/ "http://www.xcri.org/wiki/").
 
 There are currently no elements declared within the namespaces qm, elm,
 eds.
 
-\
 
 
 
-
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=31 "Edit section: Sub-elements used in the &lt;qualification&gt; element")\] Sub-elements used in the &lt;qualification&gt; element
+#### Sub-elements used in the &lt;qualification&gt; element
 
 -   **identifier** (required, one only), dc\#identifier. Unique
     identifier for the qualification.
@@ -711,7 +494,7 @@ Education System. See guidance on Education Levels and Frameworks at
 
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=32 "Edit section: Attributes")\] Attributes
+#### Attributes
 
 -   idRef, attribute of awardedBy.
 
@@ -722,23 +505,22 @@ Guidelines **idRef:** The idRef attribute MUST identify the
 Awarding Body specified in the awardedBy element. It MUST be A Uniform
 Resource Identifier (URI) conforming to the URL scheme as specified by
 [IETF RFC
-3986](http://tools.ietf.org/html/rfc3986 "http://tools.ietf.org/html/rfc3986"){.external
-.text}.
+3986](http://tools.ietf.org/html/rfc3986 "http://tools.ietf.org/html/rfc3986").
 
 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=33 "Edit section: the &lt;provider&gt; element")\] the &lt;provider&gt; element
+### the &lt;provider&gt; element
 
 *URI: *
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=34 "Edit section: Definition")\] Definition
+#### Definition
 
 An organisation that offers one or more courses.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=35 "Edit section: Constraints")\] Constraints
+#### Constraints
 
 A valid HEAR MUST contain one or more provider instances.
 
@@ -750,7 +532,7 @@ about providers of courses undertaken by the learner in the context of
 the qualification awarded.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=36 "Edit section: Namespaces")\] Namespaces
+#### Namespaces
 
 Uses namespace xcri: 
 
@@ -759,13 +541,12 @@ Uses namespace xcri:
 
 Note XCRI refers to the [eXchanging Course Related Information -
 Course Advertising Profile (XCRI-CAP v1.1) eProspectus
-standard](http://www.xcri.org/wiki/ "http://www.xcri.org/wiki/"){.external
-.text}.
+standard](http://www.xcri.org/wiki/ "http://www.xcri.org/wiki/").
 
 
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=37 "Edit section: Sub-elements used in the &lt;provider&gt; element")\] Sub-elements used in the &lt;provider&gt; element
+#### Sub-elements used in the &lt;provider&gt; element
 
 -   **identifier** (required, at least one), dc\#identifier. Unique
     identifier for the provider.
@@ -784,23 +565,23 @@ Examples:
          1234
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=38 "Edit section: Attributes")\] Attributes
+#### Attributes
 
 -   idRef, attribute of provider.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=39 "Edit section: the &lt;course&gt; element")\] the &lt;course&gt; element
+### the &lt;course&gt; element
 
 *URI: *
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=40 "Edit section: Definition")\] Definition
+#### Definition
 
 A course provides details of a learning opportunity offered by a
 learning provider.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=41 "Edit section: Constraints")\] Constraints
+#### Constraints
 
 A valid HEAR MUST contain one and only one top level course element.
 Further course elements MAY be included to reflect the institution's
@@ -842,7 +623,7 @@ Example
         
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=42 "Edit section: Namespaces")\] Namespaces
+#### Namespaces
 
 Uses namespace xcri:  and
 xcriTerms: 
@@ -852,7 +633,7 @@ Uses namespace credit: .
 Uses namespace dc: 
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=43 "Edit section: Sub-elements used in the &lt;course&gt; element at Programme Level")\] Sub-elements used in the &lt;course&gt; element at Programme Level
+#### Sub-elements used in the &lt;course&gt; element at Programme Level
 
 -   **identifier** (required, one only), dc\#identifier.
 
@@ -899,7 +680,7 @@ Uses namespace dc:
     version of the course enrolled on.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=44 "Edit section: Sub-elements used in the &lt;course&gt; element at other levels")\] Sub-elements used in the &lt;course&gt; element at other levels 
+#### Sub-elements used in the &lt;course&gt; element at other levels 
 
 -   **identifier** (required, one only), dc\#identifier.
 
@@ -932,7 +713,7 @@ Uses namespace dc:
     version of the course enrolled on.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=45 "Edit section: Sub-elements used in the &lt;presentation&gt; element at Programme Level")\] Sub-elements used in the &lt;presentation&gt; element at Programme Level
+#### Sub-elements used in the &lt;presentation&gt; element at Programme Level
 
 -   **identifier** (required, one only), dc\#identifier.
 
@@ -1034,13 +815,11 @@ Example
 
 **languageOfInstruction:** The content of this element MUST be a valid
 [BCP-47 language
-tag](http://tools.ietf.org/rfc/bcp/bcp47.txt "http://tools.ietf.org/rfc/bcp/bcp47.txt"){.external
-.text}. Default value: EN.
+tag](http://tools.ietf.org/rfc/bcp/bcp47.txt "http://tools.ietf.org/rfc/bcp/bcp47.txt"). Default value: EN.
 
 **languageOfAssessment:** The content of this element MUST be a valid
 [BCP-47 language
-tag](http://tools.ietf.org/rfc/bcp/bcp47.txt "http://tools.ietf.org/rfc/bcp/bcp47.txt"){.external
-.text}. Default value: EN.
+tag](http://tools.ietf.org/rfc/bcp/bcp47.txt "http://tools.ietf.org/rfc/bcp/bcp47.txt"). Default value: EN.
 
 **assessment :** In an exit HEAR this element MUST be present for each
 presentation, otherwise it is optional.
@@ -1058,7 +837,7 @@ that the language of instruction and assessment was English (en-GB).
 
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=46 "Edit section: Sub-elements used in the &lt;presentation&gt; element at other levels")\]  Sub-elements used in the &lt;presentation&gt; element at other levels
+#### Sub-elements used in the &lt;presentation&gt; element at other levels
 
 -   **identifier** (required, one only), dc\#identifier.
 
@@ -1068,16 +847,16 @@ that the language of instruction and assessment was English (en-GB).
     the presentation.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=47 "Edit section: the &lt;assessment&gt; element")\] the &lt;assessment&gt; element
+###  the &lt;assessment&gt; element
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=48 "Edit section: Definition")\] Definition
+#### Definition
 
 The details of the way in which the learner's performance in the
 presentation was judged.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=49 "Edit section: Constraints")\] Constraints
+#### Constraints
 
 A valid exit HEAR must contain an &lt;assessment&gt; element for the
 programme and for each module or course component that is part of the
@@ -1091,31 +870,28 @@ NOTE: decision on retakes and numbers of attempts is still outstanding -
 [Alan Paull](Alan_Paull "Alan Paull")
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=50 "Edit section: Namespaces")\] Namespaces
+#### Namespaces
 
 Uses namespace xcri: .
 
 Uses namespace elm: European Learner Mobility Achievement Information
 (EuroLMAI), for which see [CWA
-16132](http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf "http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf"){.external
-.text}.
+16132](http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf "http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf").
 
 Uses namespace eds: [European Diploma
-Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp "http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp"){.external
-.text}
+Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp "http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp")
 
 
 
 
 Note XCRI refers to the [eXchanging Course Related Information -
 Course Advertising Profile (XCRI-CAP v1.1) eProspectus
-standard](http://www.xcri.org/wiki/ "http://www.xcri.org/wiki/"){.external
-.text}.
+standard](http://www.xcri.org/wiki/ "http://www.xcri.org/wiki/").
 
 
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=51 "Edit section: Sub-elements used in the &lt;assessment&gt; element")\] Sub-elements used in the &lt;assessment&gt; element
+#### Sub-elements used in the &lt;assessment&gt; element
 
 -   **identifier** (required, one only), dc:identifier. Unique
     identifier for the &lt;assessment&gt; element.
@@ -1157,20 +933,20 @@ use an encoding scheme or controlled vocabulary for this item.
 
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=52 "Edit section: Attributes")\] Attributes
+#### Attributes
 
 -   resultType: used with **result**. Indicates whether the result is a
     mark, grade or similar. It is recommended that producers use an
     encoding scheme or controlled vocabulary for this item.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=53 "Edit section: the &lt;additionalInformation&gt; element")\] the &lt;additionalInformation&gt; element
+### the &lt;additionalInformation&gt; element
 
 *URI: This will relate to elm:additionalInformation; URI not yet
 available.*
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=54 "Edit section: Definition")\] Definition
+#### Definition
 
 Details of the richer picture of verified student achievement, including
 additional awards (with or without academic credit), additional
@@ -1178,20 +954,20 @@ recognised activities, and university, professional and departmental
 prizes.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=55 "Edit section: Constraints")\] Constraints
+#### Constraints
 
 A valid HEAR MUST contain one and only one additionalInformation
 element. Guidance on its contents is given in the 'Guidance to Inform
 Institutional Implementation'
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=56 "Edit section: Namespaces")\] Namespaces
+####  Namespaces
 
 Uses namespace elm: European Learner Mobility Achievement Information
 (EuroLMAI), for which see CWA 16132.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=57 "Edit section: Sub-elements used in the &lt;additionalInformation&gt; element")\] Sub-elements used in the &lt;additionalInformation&gt; element
+#### Sub-elements used in the &lt;additionalInformation&gt; element
 
 -   **prizes** (optional, zero, one or many). Information about
     university, professional and departmental prizes awarded to
@@ -1221,22 +997,22 @@ Uses namespace elm: European Learner Mobility Achievement Information
     link to the learner's ePortfolio.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=58 "Edit section: the &lt;certificationOftheHEAR&gt; element")\] the &lt;certificationOftheHEAR&gt; element
+### the &lt;certificationOftheHEAR&gt; element
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=59 "Edit section: Definition")\] Definition
+#### Definition
 
 Provides evidence that the HEAR is a genuine document produced by the
 authorised organisation.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=60 "Edit section: Constraints")\] Constraints
+#### Constraints
 
 A valid HEAR must contain one and only one
 &lt;certificationOftheHEAR&gt; element.
 
 
-#### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=61 "Edit section: Sub-elements used in the &lt;certificationOftheHEAR&gt; element")\] Sub-elements used in the &lt;certificationOftheHEAR&gt; element
+#### Sub-elements used in the &lt;certificationOftheHEAR&gt; element
 
 -   **identifier** (required, one only), dc\#identifier. Uniquely
     identifies this version of the HEAR data set for this learner.
@@ -1261,7 +1037,7 @@ A valid HEAR must contain one and only one
 -   **signature** (required, one only).
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit&section=62 "Edit section: XML Schema and Instance")\] XML Schema and Instance
+XML Schema and Instance
 =====================================================================================================================================================================================================================================
 
 *This section is not normative*
@@ -1271,234 +1047,3 @@ A draft XML Schema is available at
 
 A draft XML instance file is available at
 .
-
-
-
-Retrieved from
-"[http://www.xcri.org/HEAR\_1.0a\_Specification](HEAR_1.0a_Specification)"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##### Views
-
-
-
--   
-
-    
-
-    [Article](HEAR_1.0a_Specification)
--   
-
-    
-
-    [Discussion](http://www.xcri.org/wiki/index.php?title=Talk:HEAR_1.0a_Specification&action=edit)
--   
-
-    
-
-    [Edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=edit)
--   
-
-    
-
-    [History](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&action=history)
-
-
-
-
-
-
-
-##### Personal tools
-
-
-
--   
-
-    
-
-    [Log in / create
-    account](http://www.xcri.org/wiki/index.php?title=Special:Userlogin&returnto=HEAR_1.0a_Specification)
-
-
-
-
-
-
-
-
-
-
-
-[](XCRI_Wiki "XCRI Wiki")
-
-
-
-
-
-##### Navigation
-
-
-
--   
-
-    
-
-    [XCRI Wiki](XCRI_Wiki)
--   
-
-    
-
-    [XCRI website](http://www.xcri.org/)
--   
-
-    
-
-    [Current events](Current_events)
--   
-
-    
-
-    [Recent changes](./Special:Recentchanges)
--   
-
-    
-
-    [Help](./Help:Contents)
-
-
-
-
-
-
-
-##### Search
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-##### Toolbox
-
-
-
--   
-
-    
-
-    [What links here](./Special:Whatlinkshere/HEAR_1.0a_Specification)
--   
-
-    
-
-    [Related
-    changes](./Special:Recentchangeslinked/HEAR_1.0a_Specification)
--   
-
-    
-
-    [Upload file](./Special:Upload)
--   
-
-    
-
-    [Special pages](./Special:Specialpages)
--   
-
-    
-
-    [Printable
-    version](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&printable=yes)
--   
-
-    
-
-    [Permanent
-    link](http://www.xcri.org/wiki/index.php?title=HEAR_1.0a_Specification&oldid=3142)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[![Powered by
-MediaWiki](http://www.xcri.org/wiki/skins/common/images/poweredby_mediawiki_88x31.png)](http://www.mediawiki.org/)
-
-
-
-
-
-[![Attribution 3.0
-](http://i.creativecommons.org/l/by/3.0/88x31.png)](http://creativecommons.org/licenses/by/3.0/)
-
-
-
--   
-
-    
-
-    This page was last modified 18:16, 7 March 2011.
--   
-
-    
-
-    This page has been accessed 13,577 times.
--   
-
-    
-
-    Content is available under [Attribution
-    3.0](http://creativecommons.org/licenses/by/3.0/ "http://creativecommons.org/licenses/by/3.0/").
--   
-
-    
-
-    [Privacy policy](./Xcri:Privacy_policy "Xcri:Privacy policy")
--   
-
-    
-
-    [About Xcri](./Xcri:About "Xcri:About")
--   
-
-    
-
-    [Disclaimers](./Xcri:General_disclaimer "Xcri:General disclaimer")
-
-
-
-

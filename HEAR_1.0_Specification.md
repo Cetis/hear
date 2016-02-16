@@ -168,8 +168,7 @@ other accredited achievements for each completed learning opportunity,
 and information about the awarding and providing organisations
 themselves.
 
-[![Image:HEAROutlineInformationModel2010-11-09.png](http://www.xcri.org/wiki/images/5/5a/HEAROutlineInformationModel2010-11-09.png)](./Image:HEAROutlineInformationModel2010-11-09.png "Image:HEAROutlineInformationModel2010-11-09.png")
-
+[![Image:HEAROutlineInformationModel2011-02-17.png](images/HEAROutlineInformationModel2011-02-17.png)]
 
 Core elements
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
