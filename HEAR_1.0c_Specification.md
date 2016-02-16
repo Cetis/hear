@@ -246,8 +246,8 @@ XML Document Structure
 
 This section defines the root achievementReport element and relates the
 main information elements of the HEAR XML document structure to this
-root element. Definitions of the other elements are given in [Definition of Common Elements](HEAR_1.0c_Specification#Definition_of_Common_Elements "http://www.xcri.org/HEAR_1.0c_Specification#Definition_of_Common_Elements") and [Definition of Other
-Elements](HEAR_1.0c_Specification#Definition_of_Other_Elements "http://www.xcri.org/HEAR_1.0c_Specification#Definition_of_Other_Elements") sections.
+root element. Definitions of the other elements are given in [Definition of Common Elements](#Definition_of_Common_Elements) and [Definition of Other
+Elements](#Definition_of_Other_Elements) sections.
 
 A HEAR XML document includes information drawn from Student Records
 Systems, Course Information Systems and supporting systems that will be
