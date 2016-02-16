@@ -410,7 +410,7 @@ SHOULD be the institution awarding the qualification.
     2=Formative, 3=Deleted.
 
 
-<a name="Definition of Common Elements">Definition of Common Elements<a>
+<a name="Definition_of_Common_Elements">Definition of Common Elements<a>
 =================================================================================================================================================================================================================================================
 
 Many of the elements in the HEAR use the following common elements. Also
