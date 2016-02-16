@@ -90,7 +90,7 @@ A HEAR XML instance document typically consists of a top-level
 The following diagram illustrates the main elements of the
 specification.
 
-[![Image:HEAROutlineInformationModel2011-02-17.png](http://www.xcri.org/wiki/images/4/42/HEAROutlineInformationModel2011-02-17.png)](./Image:HEAROutlineInformationModel2011-02-17.png "Image:HEAROutlineInformationModel2011-02-17.png")
+[![Image:HEAROutlineInformationModel2011-02-17.png](images/HEAROutlineInformationModel2011-02-17.png)]
 
 
 Normative References
@@ -340,12 +340,12 @@ element
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=15 "Edit section: Definition")\] Definition
+### Definition
 
 The default root element for a HEAR.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=16 "Edit section: Main elements used within the achievementReport element")\] Main elements used within the achievementReport element
+### Main elements used within the achievementReport element
 
 These main elements are listed here, so that the major components of a
 HEAR are clearly indicated. Some of these elements are sub-elements of
