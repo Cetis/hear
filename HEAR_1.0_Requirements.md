@@ -134,7 +134,7 @@ HEIs have already implemented it; the HEAR builds on this work.
 The specification must support links to the following nationally
 established and maintained information (where persistent URIs exist):
 
--   Nationally devised ‚Äòlevel indicators‚Äô (see guidance notes)
+-   Nationally devised level indicators (see guidance notes)
 -   Preamble to the Diploma Supplement (standard text \[where is
     this held?\]).
 -   Statement about HESA and HESA number (standard text \[where is
@@ -156,7 +156,7 @@ individual HEIs.
 
 ### R7: Support usage as a formative document
 
-To be used as a formative document from the point of a student‚Äôs entry
+To be used as a formative document from the point of a student's entry
 to HE onwards throughout their HE experience:
 
 -   as a basis for reviewing progress and planning future activities;
@@ -278,7 +278,7 @@ document.
 
 ### R16: Support the usage of assessment data from the institution's official Student Record System
 
-The HEAR document is generated from data within the University‚Äôs
+The HEAR document is generated from data within the University's
 central Student Record System, in which format it is regulated by the
 University.
 

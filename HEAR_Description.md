@@ -134,7 +134,7 @@ Use the following terms:
     elsewhere; in this case, implementers SHOULD have regard to the
     persistence of the hyperlinks and the associated content, for
     example: "Detailed information regarding admission to the programme
-    is available in the University‚Äôs on-line Prospectus at:
+    is available in the University's on-line Prospectus at:
     www.easthampton.ac.uk/admissions/ugprospectus/06." See Guidance
     Document, section 3.3.
 

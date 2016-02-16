@@ -23,7 +23,7 @@ specification. The current version is release 1.0c.
 
 The HEAR is a means for recording student achievement in higher
 education (HE) and is intended to provide more detailed information
-about a student‚Äôs learning and achievement than the traditional degree
+about a student's learning and achievement than the traditional degree
 classification system. It will be issued to students on graduation and
 will include and extend the existing record of academic achievement -
 the academic transcript - and the European Diploma Supplement.

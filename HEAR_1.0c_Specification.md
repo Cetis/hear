@@ -1275,7 +1275,7 @@ the presentation element.
 in this case, implementers should have regard to the persistence of the
 hyperlinks and the associated content, for example: "Detailed
 information regarding admission to the programme is available in the
-University‚Äôs on-line Prospectus at:
+University's on-line Prospectus at:
 www.easthampton.ac.uk/admissions/ugprospectus/06." See [HEAR Guidance
 Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"){.external
 .text}, section 3.3.
