@@ -410,27 +410,25 @@ SHOULD be the institution awarding the qualification.
     2=Formative, 3=Deleted.
 
 
-<a name="Definition_of_Common_Elements">Definition of Common Elements<a>
+<a name="Definition_of_Common_Elements">Definition of Common Elements</a>
 =================================================================================================================================================================================================================================================
 
 Many of the elements in the HEAR use the following common elements. Also
-see [Definition of Other
-Elements](HEAR_1.0c_Specification#Definition_of_Other_Elements "http://www.xcri.org/HEAR_1.0c_Specification#Definition_of_Other_Elements"){.external
-.text}. For elements re-used from other namespaces (for example Dublin
+see [Definition of Other Elements](#Definition_of_Other_Elements) For elements re-used from other namespaces (for example Dublin
 Core, XCRI) refer to documentation for those specifications.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=20 "Edit section: the &lt;identifier&gt; element")\] the &lt;identifier&gt; element
+the &lt;identifier&gt; element
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=21 "Edit section: Definition")\] Definition
+### Definition
 
 An unambiguous reference to the resource within a given context. See
 \[EN 15982\] and \[ISO 15836\].
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=22 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace dc: .
 
@@ -441,65 +439,65 @@ Example:
      1234
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=23 "Edit section: the &lt;title&gt; element")\] the &lt;title&gt; element
+the &lt;title&gt; element
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=24 "Edit section: Definition")\] Definition
+### Definition
 
 The name of the resource.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=25 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 See \[EN 15982\] and \[ISO 15836\].
 
 Uses namespace dc: .
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=26 "Edit section: Definition of Other Elements")\] Definition of Other Elements
+<a name="Definition_of_Other_Elements">Definition of Other Elements</a>
 ===============================================================================================================================================================================================================================================
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=27 "Edit section: the &lt;accessRequirements&gt; element")\] the &lt;accessRequirements&gt; element
+the &lt;accessRequirements&gt; element
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=28 "Edit section: Definition")\] Definition
+### Definition
 
 Details of the nature and length of qualifications or periods of study
 required before starting the programme.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=29 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=30 "Edit section: the &lt;additionalAwards&gt; element")\] the &lt;additionalAwards&gt; element
+ the &lt;additionalAwards&gt; element
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=31 "Edit section: Definition")\] Definition
+### Definition
 
 Information about academic (credit-based) and non-academic awards made
 to the learner.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=32 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=33 "Edit section: the &lt;additionalInformation&gt; element")\] the &lt;additionalInformation&gt; element
+the &lt;additionalInformation&gt; element
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=34 "Edit section: Definition")\] Definition
+### Definition
 
 Details of the richer picture of verified student achievement, including
 additional awards (with or without academic credit), additional
@@ -507,13 +505,13 @@ recognised activities, and university, professional and departmental
 prizes.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=35 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
 for which see CWA 16132.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=36 "Edit section: Elements used in the &lt;additionalInformation&gt; element")\] Elements used in the &lt;additionalInformation&gt; element
+### Elements used in the &lt;additionalInformation&gt; element
 
 -   **prizes** (optional, zero, one or many)
 -   **additionalAwards** (optional, zero, one or many)
@@ -523,16 +521,16 @@ for which see CWA 16132.
 -   **furtherInformation** (optional, zero, one or many)
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=37 "Edit section: the &lt;aim&gt; element")\] the &lt;aim&gt; element
+the &lt;aim&gt; element
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=38 "Edit section: Definition")\] Definition
+### Definition
 
 Describes the aim(s) of the programme.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=39 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses mlo:\[EN 15982\] EN 15982: Metadata For Learning Opportunities
 (Advertising)
@@ -560,20 +558,17 @@ Guidelines *This section is not normative*
          
     
 
-
-
-
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=40 "Edit section: the &lt;assessment&gt; element")\] the &lt;assessment&gt; element
+the &lt;assessment&gt; element
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=41 "Edit section: Definition")\] Definition
+### Definition
 
 The details of the way in which the learner's performance in the
 presentation of the course was judged.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=42 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
@@ -587,7 +582,7 @@ Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn
 .text}
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=43 "Edit section: Elements used in the &lt;assessment&gt; element")\] Elements used in the &lt;assessment&gt; element
+### Elements used in the &lt;assessment&gt; element
 
 -   **identifier** (required, exactly one), dc:identifier
 -   **assessmentType** (required, exactly one)
@@ -605,11 +600,11 @@ assessment.
 
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=44 "Edit section: the &lt;assessmentType&gt; element")\] the &lt;assessmentType&gt; element
+the &lt;assessmentType&gt; element
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=45 "Edit section: Definition")\] Definition
+### Definition
 
 Description of the style of the assessment.
 
@@ -622,38 +617,36 @@ Guidelines *This section is not normative*
 scheme or controlled vocabulary for this item.
 
 
-
-
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=46 "Edit section: the &lt;assessmentWeight&gt; element")\] the &lt;assessmentWeight&gt; element
+the &lt;assessmentWeight&gt; element
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=47 "Edit section: Definition")\] Definition
+### Definition
 
 Weighting of the assessment result as a proportion of the overall
 assessment for the presentation.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=48 "Edit section: the &lt;attempts&gt; element")\] the &lt;attempts&gt; element
+the &lt;attempts&gt; element
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=49 "Edit section: Definition")\] Definition
+### Definition
 
 Number of times the learner has made at the assessment.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=50 "Edit section: the &lt;awardedBy&gt; element")\] the &lt;awardedBy&gt; element
+the &lt;awardedBy&gt; element
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=51 "Edit section: Definition")\] Definition
+### Definition
 
 This element identifies and names the recognised organisation (Awarding
 Body) that confers the qualification upon the learner.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=52 "Edit section: Attributes")\] Attributes
+### Attributes
 
 -   @idRef\. The idRef attribute MUST identify the Awarding Body specified in
     the awardedBy element. It MUST be A Uniform Resource Identifier (URI)
@@ -675,31 +668,31 @@ enables compliance with XCRI-CAP and EuroLMI.
 
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=53 "Edit section: the &lt;capacity&gt; element")\] the &lt;capacity&gt; element
+the &lt;capacity&gt; element
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=54 "Edit section: Definition")\] Definition
+Definition
 
 The official post of the certifying individual.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=55 "Edit section: the &lt;certificationOfTheHEAR&gt; element")\] the &lt;certificationOfTheHEAR&gt; element
+the &lt;certificationOfTheHEAR&gt; element
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=56 "Edit section: Definition")\] Definition
+### Definition
 
 Provides evidence that the HEAR is a genuine document produced by the
 authorised organisation.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=57 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace dc: 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=58 "Edit section: Elements used in the &lt;certificationOfTheHEAR&gt; element")\] Elements used in the &lt;certificationOfTheHEAR&gt; element
+### Elements used in the &lt;certificationOfTheHEAR&gt; element
 
 -   **identifier** (required, exactly one), dc:identifier. Uniquely
     identifies this version of the HEAR data set for this learner.
@@ -709,17 +702,17 @@ Uses namespace dc:
 -   **signature** (optional, zero or one).
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=59 "Edit section: the &lt;course&gt; element")\] the &lt;course&gt; element
+the &lt;course&gt; element
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=60 "Edit section: Definition")\] Definition
+### Definition
 
 A course element provides details of a learning opportunity offered by a
 learning provider.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=61 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
@@ -729,7 +722,7 @@ Uses mlo: \[EN 15982\] EN 15982: Metadata For Learning Opportunities
 Uses namespace dc: 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=62 "Edit section: Common elements used in the &lt;course&gt; element at all levels")\] Common elements used in the &lt;course&gt; element at all levels
+### Common elements used in the &lt;course&gt; element at all levels
 
 -   **identifier** (required, exactly one), dc:identifier
 -   **title** (required, exactly one), dc:title. Full official name of
@@ -739,7 +732,7 @@ Uses namespace dc:
 -   **presentation** (required, exactly one)
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=63 "Edit section: Additional elements used in the &lt;course&gt; element at Programme Level")\] Additional elements used in the &lt;course&gt; element at Programme Level
+### Additional elements used in the &lt;course&gt; element at Programme Level
 
 -   **aim** (optional, zero or one), mlo:objective.
 -   **learningOutcome** (optional, zero or one)
@@ -755,7 +748,7 @@ be supplied.
 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=64 "Edit section: Additional elements used in the &lt;course&gt; element at other levels")\] Additional elements used in the &lt;course&gt; element at other levels
+### Additional elements used in the &lt;course&gt; element at other levels
 
 -   **isPartOf** (required, exactly one)
 
@@ -797,45 +790,45 @@ learner. If this is not possible, display required credits.
 
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=65 "Edit section: the &lt;dateOfBirth&gt; element")\] the &lt;dateOfBirth&gt; element
+the &lt;dateOfBirth&gt; element
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=66 "Edit section: Definition")\] Definition
+### Definition
 
 Date when the learner was born. This value MUST be in ISO 8601 date
 format as refined by W3C DTF 'Complete Date': yyyy-mm-dd (example:
 "1985-05-16").
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=67 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses scop: the SEMIC-EU Core Person Specification (not yet published in
 machine readable form), which is compatible with EuroLMAI.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=68 "Edit section: the &lt;dualAward&gt; element")\] the &lt;dualAward&gt; element
+the &lt;dualAward&gt; element
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=69 "Edit section: Definition")\] Definition
+### Definition
 
 Gives details if the qualification is a dual award, for example between
 two UK institutions or between a UK and European institution.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=70 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=71 "Edit section: the &lt;duration&gt; element")\] the &lt;duration&gt; element
+the &lt;duration&gt; element
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=72 "Edit section: Definition")\] Definition
+### Definition
 
 The length of the programme.
 
@@ -859,76 +852,76 @@ Example
 
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=73 "Edit section: the &lt;ePortfolioUrl&gt; element")\] the &lt;ePortfolioUrl&gt; element
+the &lt;ePortfolioUrl&gt; element
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=74 "Edit section: Definition")\] Definition
+### Definition
 
 A hypertext link to the learner's ePortfolio.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=75 "Edit section: the &lt;familyName&gt; element")\] the &lt;familyName&gt; element
+the &lt;familyName&gt; element
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=76 "Edit section: Definition")\] Definition
+### Definition
 
 Full family or surname, as included on official documents, such as a
 passport.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=77 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI).
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=78 "Edit section: the &lt;fullName&gt; element")\] the &lt;fullName&gt; element
+the &lt;fullName&gt; element
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=79 "Edit section: Definition")\] Definition
+### Definition
 
 The complete name of the learner; components should be those included on
 official documents, such as a passport.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=80 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI).
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=81 "Edit section: the &lt;fullNameOfficial&gt;")\] the &lt;fullNameOfficial&gt;
+the &lt;fullNameOfficial&gt;
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=82 "Edit section: Definition")\] Definition
+### Definition
 
 Full name of the official certifying the HEAR.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=83 "Edit section: the &lt;furtherInformation&gt; element")\] the &lt;furtherInformation&gt; element
+the &lt;furtherInformation&gt; element
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=84 "Edit section: Definition")\] Definition
+### Definition
 
 Information within the Additional Information element not covered
 elsewhere.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=85 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=86 "Edit section: the &lt;furtherStudy&gt; element")\] the &lt;furtherStudy&gt; element
+the &lt;furtherStudy&gt; element
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=87 "Edit section: Definition")\] Definition
+### Definition
 
 Indicates if, within the country of origin, the qualification normally
 provides access (not admission) to further academic and/or professional
@@ -936,7 +929,7 @@ study, especially leading to any specific qualifications, or levels of
 study.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=88 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
@@ -960,36 +953,36 @@ diploma.*
 
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=89 "Edit section: the &lt;givenNames&gt; element")\] the &lt;givenNames&gt; element
+the &lt;givenNames&gt; element
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=90 "Edit section: Definition")\] Definition
+### Definition
 
 All given or first names in the order specified by the learner, as
 included on official documents, such as a passport.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=91 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI).
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=92 "Edit section: the &lt;gradingScheme&gt; element")\] the &lt;gradingScheme&gt; element
+the &lt;gradingScheme&gt; element
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=93 "Edit section: Definition")\] Definition
+### Definition
 
 Information about the grading scheme used for the assessment of a
 presentation.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=94 "Edit section: the &lt;identifierDescription&gt; element")\] the &lt;identifierDescription&gt; element
+the &lt;identifierDescription&gt; element
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=95 "Edit section: Definition")\] Definition
+### Definition
 
 Used to indicate the provenance of the identifier or identifiers.
 Required text for the HUSID is as follows:
@@ -999,88 +992,87 @@ identifying number for students registered at a UK university. It is
 defined by HESA, the UK's Higher Education Statistics Agency."
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=96 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=97 "Edit section: the &lt;informationSources&gt; element")\]  the &lt;informationSources&gt; element
+the &lt;informationSources&gt; element
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=98 "Edit section: Definition")\] Definition
+### Definition
 
 Further information sources and references where more details on the
 qualification could be sought.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=99 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=100 "Edit section: the &lt;isPartOf&gt; element")\] the &lt;isPartOf&gt; element
+the &lt;isPartOf&gt; element
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=101 "Edit section: Definition")\] Definition
+### Definition
 
 Indicates the parent course element.
 
 The isPartOf element MUST contain only the identifier of the parent
 course element.
 
-
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=102 "Edit section: the &lt;issueDateHear&gt; element")\] the &lt;issueDateHear&gt; element
+the &lt;issueDateHear&gt; element
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=103 "Edit section: Definition")\] Definition
+### Definition
 
 Date and time of the production of this HEAR.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=104 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 xcri:dateOrDateTimeDType
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=105 "Edit section: the &lt;issueDateQualification&gt; element")\] the &lt;issueDateQualification&gt; element
+the &lt;issueDateQualification&gt; element
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=106 "Edit section: Definition")\] Definition
+### Definition
 
 Date on which the qualification was awarded.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=107 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
 for which see CWA 16132.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=108 "Edit section: the &lt;issuer&gt; element")\] the &lt;issuer&gt; element
+the &lt;issuer&gt; element
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=109 "Edit section: Definition")\] Definition
+### Definition
 
 The organisation that is responsible for producing the HEAR.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=110 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace dc: 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=111 "Edit section: Elements used in the &lt;issuer&gt; element")\] Elements used in the &lt;issuer&gt; element
+### Elements used in the &lt;issuer&gt; element
 
 -   **identifier**, dc:identifier (required, one or more)
 -   **title**, dc:title (required, one or more)
@@ -1107,30 +1099,30 @@ Europass Diploma Supplement Application Profile of the EuroLMAI.
 
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=112 "Edit section: the &lt;issuerDescription&gt; element")\] the &lt;issuerDescription&gt; element
+the &lt;issuerDescription&gt; element
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=113 "Edit section: Definition")\] Definition
+### Definition
 
 A short description of the issuer.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=114 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace dc: 
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=115 "Edit section: the &lt;learner&gt; element")\] the &lt;learner&gt; element
+the &lt;learner&gt; element
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=116 "Edit section: Definition")\] Definition
+### Definition
 
 Information identifying the holder of the qualification.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=117 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI).
 
@@ -1140,7 +1132,7 @@ machine readable form), which is compatible with EuroLMAI.
 Uses namespace dc: 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=118 "Edit section: Elements used in the &lt;learner&gt; element")\] Elements used in the &lt;learner&gt; element
+### Elements used in the &lt;learner&gt; element
 
 -   **identifier** (required, one or more), dc:identifier. Unique
     identifier for the learner. Where the HESA Unique Student
@@ -1177,27 +1169,27 @@ required.
 
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=119 "Edit section: the &lt;learningOutcome&gt; element")\] the &lt;learningOutcome&gt; element
+the &lt;learningOutcome&gt; element
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=120 "Edit section: Definition")\] Definition
+### Definition
 
 Describes the overall learning outcome(s) of the programme.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=121 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=122 "Edit section: the &lt;level&gt; element")\] the &lt;level&gt; element
+the &lt;level&gt; element
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=123 "Edit section: Definition")\] Definition
+### Definition
 
 Numerical position of the qualification in the relevant national
 qualifications framework.
@@ -1206,33 +1198,33 @@ The level element MUST contain the numerical position of the
 qualification in the relevant national qualifications framework.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=124 "Edit section: the &lt;minimumStandards&gt; element")\] the &lt;minimumStandards&gt; element
+the &lt;minimumStandards&gt; element
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=125 "Edit section: Definition")\] Definition
+### Definition
 
 Details of the regulations covering the minimum standards required to
 secure the qualification; therefore applies to the Programme only.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=126 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=127 "Edit section: the &lt;presentation&gt; element")\] the &lt;presentation&gt; element
+the &lt;presentation&gt; element
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=128 "Edit section: Definition")\] Definition
+### Definition
 
 Details of the instance or version of the course enrolled on.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=129 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
@@ -1242,7 +1234,7 @@ Uses mlo: \[EN 15982\] EN 15982: Metadata For Learning Opportunities
 Uses namespace dc: 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=130 "Edit section: Common elements used in the &lt;presentation&gt; element at all levels")\] Common elements used in the &lt;presentation&gt; element at all levels
+### Common elements used in the &lt;presentation&gt; element at all levels
 
 -   **identifier** (required, exactly one), dc:identifier. Where
     presentation does not have its own identifier, producers SHOULD use
@@ -1252,7 +1244,7 @@ Uses namespace dc:
     is optional.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=131 "Edit section: Elements used in the &lt;presentation&gt; element at Programme Level only")\] Elements used in the &lt;presentation&gt; element at Programme Level only
+### element at Programme Level only")\] Elements used in the &lt;presentation&gt; element at Programme Level only
 
 -   **start** (required, exactly one), mlo:start (defined in mlo)
 -   **end** (required, exactly one), xcri:end (defined in xcri)
@@ -1301,36 +1293,34 @@ these elements are missing, consumers should interpret this as meaning
 that the language of instruction and assessment was English (en-GB).
 
 
-
-
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=132 "Edit section: the &lt;prizes&gt; element")\] the &lt;prizes&gt; element
+the &lt;prizes&gt; element
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=133 "Edit section: Definition")\] Definition
+### Definition
 
 Information about university, professional and departmental prizes
 awarded to the learner.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=134 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=135 "Edit section: the &lt;professionalStatus&gt; element")\] the &lt;professionalStatus&gt; element
+the &lt;professionalStatus&gt; element
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=136 "Edit section: Definition")\] Definition
+### Definition
 
 Details of any rights to practise or other professional standing
 accorded to holders of the award.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=137 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
@@ -1343,17 +1333,14 @@ Guidelines *This section is not normative*
 
 The institution may use a generic statement from a professional body or
 one of its own devising (see [HEAR Guidance
-Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"){.external
-.text}).
+Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf").
 
 
-
-
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=138 "Edit section: the &lt;provider&gt; element")\] the &lt;provider&gt; element
+the &lt;provider&gt; element
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=139 "Edit section: Definition")\] Definition
+### Definition
 
 An organisation that offers one or more courses.
 
@@ -1366,12 +1353,12 @@ identifier MUST match the awardedBy identifier.
 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=140 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=141 "Edit section: Elements used in the &lt;provider&gt; element")\] Elements used in the &lt;provider&gt; element
+### Elements used in the &lt;provider&gt; element
 
 -   **identifier** (required, at least one), dc:identifier. Unique
     identifier for the provider.
@@ -1382,26 +1369,26 @@ Uses namespace xcri:
 -   **course** (required, at least one)
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=142 "Edit section: the &lt;providerStatus&gt; element")\] the &lt;providerStatus&gt; element
+the &lt;providerStatus&gt; element
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=143 "Edit section: Definition")\] Definition
+### Definition
 
 Describes the legal status of the provider, for example as either a
 'recognised body' or a 'listed body'.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=144 "Edit section: the &lt;qualification&gt; element")\] the &lt;qualification&gt; element
+the &lt;qualification&gt; element
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=145 "Edit section: Definition")\] Definition
+### Definition
 
 A status awarded to or conferred on a learner by an awarding body.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=146 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
@@ -1417,7 +1404,7 @@ Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn
 Uses namespace dc: 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=147 "Edit section: Elements used in the &lt;qualification&gt; element")\] Elements used in the &lt;qualification&gt; element
+### Elements used in the &lt;qualification&gt; element
 
 -   **identifier** (required, exactly one), dc:identifier. Unique
     identifier for the qualification.
@@ -1436,64 +1423,63 @@ Uses namespace dc:
 -   **awardedBy** (required, exactly one)
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=148 "Edit section: the &lt;qualificationHolderTitle&gt; element")\] the &lt;qualificationHolderTitle&gt; element
+the &lt;qualificationHolderTitle&gt; element
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=149 "Edit section: Definition")\] Definition
+### Definition
 
 Nationally accepted title conferred by the award, for example *Bachelor
 of Science (Honours)*.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=150 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses eds: [European Diploma
 Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp "http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp"){.external
 .text}
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=151 "Edit section: the &lt;recognisedActivities&gt; element")\] the &lt;recognisedActivities&gt; element
+the &lt;recognisedActivities&gt; element
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=152 "Edit section: Definition")\] Definition
+### Definition
 
 Information about other recognised non-credit-bearing activities
 undertaken by the learner.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=153 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=154 "Edit section: the &lt;referenceData&gt; element")\] the &lt;referenceData&gt; element
+the &lt;referenceData&gt; element
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=155 "Edit section: Definition")\] Definition
+### Definition
 
 Container for standard, repeated or generic text used in the HEAR.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=156 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=157 "Edit section: Elements used in the &lt;referenceData&gt; element")\] Elements used in the &lt;referenceData&gt; element
+### Elements used in the &lt;referenceData&gt; element
 
 -   **referenceDataItem** (required, one or more)
 
-
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=158 "Edit section: the &lt;referenceDataItem&gt; element")\] the &lt;referenceDataItem&gt; element
+the &lt;referenceDataItem&gt; element
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=159 "Edit section: Definition")\] Definition
+### Definition
 
 Holds standard, repeated or generic text ('boilerplate' text). This text
 will typically be recommended text from the [HEAR Guidance
@@ -1504,18 +1490,18 @@ learning outcomes, so that these pieces of text can be referenced rather
 than repeated.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=160 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=161 "Edit section: the &lt;regulations&gt; element")\] the &lt;regulations&gt; element
+the &lt;regulations&gt; element
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=162 "Edit section: Definition")\] Definition
+### Definition
 
 Describes the regulations concerning degree-awarding powers in the UK.
 
@@ -1530,32 +1516,31 @@ in the UK."
 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=163 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=164 "Edit section: the &lt;result&gt; element")\] the &lt;result&gt; element
+the &lt;result&gt; element
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=165 "Edit section: Definition")\] Definition
+### Definition
 
 The actual outcome of a presentation for a learner as stated by a
 provider or issuer.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=166 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
 for which see [CWA
-16132](http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf "http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf"){.external
-.text}.
+16132](http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf "http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf").
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=167 "Edit section: Attributes used in the &lt;result&gt; element")\] Attributes used in the &lt;result&gt; element
+### Attributes used in the &lt;result&gt; element
 
 -   @resultType. Indicates whether the result is a mark, grade
     or similar.
@@ -1576,16 +1561,16 @@ Guidelines *This section is not normative*
 
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=168 "Edit section: the &lt;signature&gt; element")\] the &lt;signature&gt; element
+the &lt;signature&gt; element
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=169 "Edit section: Definition")\] Definition
+### Definition
 
 A reference to an image of a signature of the responsible official.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=170 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
@@ -1605,36 +1590,33 @@ It is recommended that producers protect any HEAR document with an
 appropriate digital signature to ensure document authenticity and
 integrity.
 
-
-
-
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=171 "Edit section: the &lt;specialFeature&gt; element")\] the &lt;specialFeature&gt; element
+the &lt;specialFeature&gt; element
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=172 "Edit section: Definition")\] Definition
+### Definition
 
 Any particular features that help define the programme that are not
 covered elsewhere.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=173 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=174 "Edit section: the &lt;subject&gt; element")\] the &lt;subject&gt; element
+the &lt;subject&gt; element
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=175 "Edit section: Definition")\] Definition
+### Definition
 
 Main field(s) of study for the qualification.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=176 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace dc: .
 
@@ -1653,28 +1635,28 @@ respect of the top level course (programme) element.
 
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=177 "Edit section: the &lt;terminalAward&gt; element")\] the &lt;terminalAward&gt; element
+the &lt;terminalAward&gt; element
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=178 "Edit section: Definition")\] Definition
+### Definition
 
 Specifies if the qualification is a terminal (end) award or part of a
 hierarchy of awards.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=179 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
 
 
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=180 "Edit section: the &lt;type&gt; element")\] the &lt;type&gt; element
+the &lt;type&gt; element
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=181 "Edit section: Definition")\] Definition
+### Definition
 
 Indicates the position of the course in a hierarchy with Programme at
 the top and Module or Unit at the bottom; for example programme, a
@@ -1682,12 +1664,11 @@ module-level component or a grouping component such as semester,
 programme year, level or subject of a programme.
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=182 "Edit section: Namespaces")\] Namespaces
+### Namespaces
 
 Uses namespace dc: .
 
-
-\[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=183 "Edit section: XML Schema and Instance")\] XML Schema and Instance
+XML Schema and Instance
 ======================================================================================================================================================================================================================================
 
 *This section is not normative*
@@ -1699,236 +1680,4 @@ A sample XML instance file is available at
 .
 
 XCRI-CAP 1.2 schema and supporting schemas are available from the XCRI
-[website](http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd "http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd"){.external
-.text}.
-
-
-
-Retrieved from
-"[http://www.xcri.org/HEAR\_1.0c\_Specification](HEAR_1.0c_Specification)"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##### Views
-
-
-
--   
-
-    
-
-    [Article](HEAR_1.0c_Specification)
--   
-
-    
-
-    [Discussion](http://www.xcri.org/wiki/index.php?title=Talk:HEAR_1.0c_Specification&action=edit)
--   
-
-    
-
-    [Edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit)
--   
-
-    
-
-    [History](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=history)
-
-
-
-
-
-
-
-##### Personal tools
-
-
-
--   
-
-    
-
-    [Log in / create
-    account](http://www.xcri.org/wiki/index.php?title=Special:Userlogin&returnto=HEAR_1.0c_Specification)
-
-
-
-
-
-
-
-
-
-
-
-[](XCRI_Wiki "XCRI Wiki")
-
-
-
-
-
-##### Navigation
-
-
-
--   
-
-    
-
-    [XCRI Wiki](XCRI_Wiki)
--   
-
-    
-
-    [XCRI website](http://www.xcri.org/)
--   
-
-    
-
-    [Current events](Current_events)
--   
-
-    
-
-    [Recent changes](./Special:Recentchanges)
--   
-
-    
-
-    [Help](./Help:Contents)
-
-
-
-
-
-
-
-##### Search
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-##### Toolbox
-
-
-
--   
-
-    
-
-    [What links here](./Special:Whatlinkshere/HEAR_1.0c_Specification)
--   
-
-    
-
-    [Related
-    changes](./Special:Recentchangeslinked/HEAR_1.0c_Specification)
--   
-
-    
-
-    [Upload file](./Special:Upload)
--   
-
-    
-
-    [Special pages](./Special:Specialpages)
--   
-
-    
-
-    [Printable
-    version](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&printable=yes)
--   
-
-    
-
-    [Permanent
-    link](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&oldid=4405)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[![Powered by
-MediaWiki](http://www.xcri.org/wiki/skins/common/images/poweredby_mediawiki_88x31.png)](http://www.mediawiki.org/)
-
-
-
-
-
-[![Attribution 3.0
-](http://i.creativecommons.org/l/by/3.0/88x31.png)](http://creativecommons.org/licenses/by/3.0/)
-
-
-
--   
-
-    
-
-    This page was last modified 14:18, 4 September 2012.
--   
-
-    
-
-    This page has been accessed 7,817 times.
--   
-
-    
-
-    Content is available under [Attribution
-    3.0](http://creativecommons.org/licenses/by/3.0/ "http://creativecommons.org/licenses/by/3.0/").
--   
-
-    
-
-    [Privacy policy](./Xcri:Privacy_policy "Xcri:Privacy policy")
--   
-
-    
-
-    [About Xcri](./Xcri:About "Xcri:About")
--   
-
-    
-
-    [Disclaimers](./Xcri:General_disclaimer "Xcri:General disclaimer")
-
-
-
-
+[website](http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd "http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd"){
