@@ -1668,7 +1668,7 @@ programme year, level or subject of a programme.
 
 Uses namespace dc: .
 
-<a name="XML_Schema_and_Instances">XML Schema and Instance</a>
+<a name="XML_Schema_and_Instance">XML Schema and Instance</a>
 ======================================================================================================================================================================================================================================
 
 *This section is not normative*
