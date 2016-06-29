@@ -82,7 +82,7 @@ Further information about the HEAR:
 
 
 
-##Legal
+## Licence
 This work, “HEAR Technical Specification", is a derivative of “HEAR Technical Specification 1.0c" by the University of Bolton, used under CC BY. "HEAR Technical Specification" is (c) 2016 JISC.
 
 
