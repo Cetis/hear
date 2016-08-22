@@ -363,27 +363,22 @@ top level elements, as noted in this guidance.
 -   additionalInformation
 
 **awardedBy:** A component of qualification (see
-[XCRI-CAP](XCRI_CAP_1.2#the_.3Cqualification.3E_element "http://www.xcri.org/XCRI_CAP_1.2#the_.3Cqualification.3E_element"){.external
-.text} specification).
+[XCRI-CAP]([XCRI-CAP 1.2](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md).
 
 **qualification:** A component of course (see
-[XCRI-CAP](XCRI_CAP_1.2#the_.3Cqualification.3E_element "http://www.xcri.org/XCRI_CAP_1.2#the_.3Cqualification.3E_element"){.external
-.text} specification).
+[XCRI-CAP]([XCRI-CAP 1.2](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md).
 
 **course:** A component of provider (see
-[XCRI-CAP](XCRI_CAP_1.2#the_.3Ccourse.3E_element "http://www.xcri.org/XCRI_CAP_1.2#the_.3Ccourse.3E_element"){.external
-.text} specification).
+[XCRI-CAP 1.2](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md).
 
 **presentation:** A component of course (see
-[XCRI-CAP](XCRI_CAP_1.2#the_.3Cpresentation.3E_element "http://www.xcri.org/XCRI_CAP_1.2#the_.3Cpresentation.3E_element"){.external
-.text} specification).
+[XCRI-CAP 1.2](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md).
 
 **assessment:** A component of presentation (see
-[XCRI-CAP](XCRI_CAP_1.2#the_.3Cassessment.3E_element "http://www.xcri.org/XCRI_CAP_1.2#the_.3Cassessment.3E_element"){.external
-.text} specification)
+[XCRI-CAP 1.2](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md). 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=17 "Edit section: Elements used in the &lt;achievementReport&gt; element")\] Elements used in the &lt;achievementReport&gt; element
+###  Elements used in the &lt;achievementReport&gt; element
 
 -   referenceData (optional, zero or one)
 -   issuer (required, exactly one)
@@ -1673,8 +1668,7 @@ Uses namespace dc: .
 
 *This section is not normative*
 
-A W3C XML Schema is available at
-.
+A W3C XML Schema is available at https://github.com/Cetis/hear/blob/master/schemas/HEAR_1.0.xsd .
 
 A sample XML instance file is available at
 .
