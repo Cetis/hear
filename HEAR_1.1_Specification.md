@@ -18,20 +18,21 @@ About
 
 This is working towards HEAR 1.1
 
-Changes from 1.0b:
+Changes from 1.0c:
 
--   All constraints consolidated to the Constraints section.
-
-
-
--   issuerDescription element added to &lt;issuer&gt; for conformance
-    with EuroLMAI.
-
-
-
--   objective and learningOutcome changed so that only one or the other
-    is mandatory.
-
+-   Constraint 11 modified to allow multiple result elements for an assessment
+-   Constraint 30 added so that no resultType can appear more than once in a result
+-   &lt;assessment&gt; element changed
+    + to make the identifier optional
+    + to allow an optional title
+    + guidance added for title and gradingScheme
+    + to add an example
+-   &lt;result&gt; element changed
+    + definition made clearer
+    + namespace URI removed as no longer valid
+    + @resultType attribute explanation expanded
+    + @calculationSchemeref attribute introduced
+    + guidance added for @calculationSchemeRef
 
 ### Patents
 
