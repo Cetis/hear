@@ -3,16 +3,9 @@ layout: default
 ---
 
 
+# HEAR 1.1 Specification 
 
-
-
-
-HEAR 1.1 Specification 
-=======================
-
-About
-================================================================================================================================================================================================
-
+## About
 
 ### Status
 
@@ -63,8 +56,7 @@ Technical Specification Working Group, in particular:
 -   Andy Youell
 
 
-Introduction
-==============================================================================================================================================================================================================
+# Introduction
 
 The Higher Education Achievement Report (HEAR) technical specification
 defines an XML format for the content of the HEAR. It is intended to
@@ -94,9 +86,7 @@ specification.
 [![Image:HEAROutlineInformationModel2011-02-17.png](images/HEAROutlineInformationModel2011-02-17.png)]
 
 
-Normative References
-==============================================================================================================================================================================================================================
-
+# Normative References
 
 \[XCRI-CAP 1.2\] eXchanging Course Related Information Course
 Advertising Profile. See
@@ -117,9 +107,7 @@ Information interchange ‚Äî Representation of dates and times
 \[CWA 16077\] CWA 16077: Educational Credit Information Model
 
 
-Conformance
-============================================================================================================================================================================================================
-
+# Conformance
 
 There are two classes of application that can conform to this
 specification:
@@ -151,8 +139,7 @@ A **conforming consumer** MUST be capable of processing *strictly
 conforming instances*.
 
 
-HEAR Documents
-==================================================================================================================================================================================================================
+## HEAR Documents
 
 A producer MUST create HEAR documents that are valid XML documents.
 
@@ -168,8 +155,7 @@ instances for HEAR data sets required entirely in more than one
 language, for example English and Welsh.
 
 
-The HEAR Template
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### The HEAR Template
 
 *This section is not normative*
 
@@ -204,8 +190,7 @@ contain section numbering and standard statements as described in the
 Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf").
 
 
-Contextual Information
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Contextual Information
 
 *This section is not normative*
 
@@ -242,13 +227,13 @@ specification makes provision for inclusion of of these statements in
 the HEAR XML Data Set if desired by systems designers.
 
 
-XML Document Structure
-===================================================================================================================================================================================================================================
+# XML Document Structure
 
 This section defines the root achievementReport element and relates the
 main information elements of the HEAR XML document structure to this
-root element. Definitions of the other elements are given in [Definition of Common Elements](#Definition_of_Common_Elements) and [Definition of Other
-Elements](#Definition_of_Other_Elements) sections.
+root element. Definitions of the other elements are given in 
+[Definition of Common Elements](#Definition_of_Common_Elements) and 
+[Definition of Other Elements](#Definition_of_Other_Elements) sections.
 
 A HEAR XML document includes information drawn from Student Records
 Systems, Course Information Systems and supporting systems that will be
@@ -261,8 +246,7 @@ assessment results and other accredited achievements for each completed
 learning opportunity, and information about the awarding and providing
 organisations themselves.
 
-Constraints
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Constraints
 
 1.  A valid HEAR MUST contain exactly one issuer element.
 2.  A valid HEAR MUST contain exactly one learner element.
@@ -339,9 +323,7 @@ Constraints
     for any given resultType.
 
 
-the &lt;achievementReport&gt; element
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
+## the &lt;achievementReport&gt; element
 
 ### Definition
 
@@ -408,17 +390,15 @@ SHOULD be the institution awarding the qualification.
     2=Formative, 3=Deleted.
 
 
-<a name="Definition_of_Common_Elements">Definition of Common Elements</a>
-=================================================================================================================================================================================================================================================
+# <a name="Definition_of_Common_Elements">Definition of Common Elements</a>
 
 Many of the elements in the HEAR use the following common elements. Also
 see [Definition of Other Elements](#Definition_of_Other_Elements) For elements re-used from other namespaces (for example Dublin
 Core, XCRI) refer to documentation for those specifications.
 
 
-the &lt;identifier&gt; element
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## the &lt;identifier&gt; element
 
 ### Definition
 
@@ -437,14 +417,12 @@ Example:
      1234
 
 
-the &lt;title&gt; element
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## the &lt;title&gt; element
 
 ### Definition
 
 The name of the resource.
-
 
 ### Namespaces
 
@@ -453,12 +431,15 @@ See \[EN 15982\] and \[ISO 15836\].
 Uses namespace dc: .
 
 
-<a name="Definition_of_Other_Elements">Definition of Other Elements</a>
-===============================================================================================================================================================================================================================================
 
 
-the &lt;accessRequirements&gt; element
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# <a name="Definition_of_Other_Elements">Definition of Other Elements</a>
+
+
+
+## the &lt;accessRequirements&gt; element
 
 
 ### Definition
@@ -474,8 +455,8 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
- the &lt;additionalAwards&gt; element
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;additionalAwards&gt; element
 
 
 ### Definition
@@ -491,8 +472,8 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-the &lt;additionalInformation&gt; element
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;additionalInformation&gt; element
 
 
 ### Definition
@@ -519,8 +500,8 @@ for which see CWA 16132.
 -   **furtherInformation** (optional, zero, one or many)
 
 
-the &lt;aim&gt; element
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;aim&gt; element
 
 
 ### Definition
@@ -534,8 +515,6 @@ Uses mlo:\[EN 15982\] EN 15982: Metadata For Learning Opportunities
 (Advertising)
 
 Represented as mlo:objective.
-
-
 
 
 Guidelines *This section is not normative*
@@ -556,8 +535,7 @@ Guidelines *This section is not normative*
          
     
 
-the &lt;assessment&gt; element
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## the &lt;assessment&gt; element
 
 
 ### Definition
@@ -593,7 +571,7 @@ Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn
 
 
 
-Guidelines  *This section is not normative*
+### Guidelines  *This section is not normative*
 
 **result:** Required in an exit HEAR, at least one per assessment.
 
@@ -602,7 +580,7 @@ Guidelines  *This section is not normative*
 **gradingScheme**: where there is a URI identifying the calculation scheme for any specific result, that should be placed in the @calculationSchemeRef attribute of the result element, rather than here.
 
 
-Examples:
+### Examples:
 * from Gradintel:
 
 
@@ -621,8 +599,7 @@ Examples:
 
 
 
-the &lt;assessmentType&gt; element
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## the &lt;assessmentType&gt; element
 
 
 ### Definition
@@ -631,15 +608,14 @@ Description of the style of the assessment.
 
 
 
-
-Guidelines *This section is not normative*
+### Guidelines *This section is not normative*
 
 **assessmentType:** It is recommended that producers use an encoding
 scheme or controlled vocabulary for this item.
 
 
-the &lt;assessmentWeight&gt; element
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;assessmentWeight&gt; element
 
 
 ### Definition
@@ -648,8 +624,8 @@ Weighting of the assessment result as a proportion of the overall
 assessment for the presentation.
 
 
-the &lt;attempts&gt; element
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;attempts&gt; element
 
 
 ### Definition
@@ -657,8 +633,8 @@ the &lt;attempts&gt; element
 Number of times the learner has made at the assessment.
 
 
-the &lt;awardedBy&gt; element
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;awardedBy&gt; element
 
 
 ### Definition
@@ -676,8 +652,7 @@ Body) that confers the qualification upon the learner.
 
 
 
-
-Note Where the Awarding Body is not the provider, a second
+**Note** Where the Awarding Body is not the provider, a second
 provider element should be created that contains the relevant details of
 the awarding body. The identifier in the awardedBy element identifies
 this organisation, and the provider element for the awarding body must
@@ -689,17 +664,16 @@ enables compliance with XCRI-CAP and EuroLMI.
 
 
 
-the &lt;capacity&gt; element
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## the &lt;capacity&gt; element
 
 
-Definition
+### Definition
 
 The official post of the certifying individual.
 
 
-the &lt;certificationOfTheHEAR&gt; element
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;certificationOfTheHEAR&gt; element
 
 
 ### Definition
@@ -723,8 +697,8 @@ Uses namespace dc:
 -   **signature** (optional, zero or one).
 
 
-the &lt;course&gt; element
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;course&gt; element
 
 
 ### Definition
@@ -760,13 +734,8 @@ Uses namespace dc:
 -   **specialFeature** (optional, zero, one or many)
 -   **qualification** (required, exactly one)
 
-
-
-
-Note At least one of &lt;aim&gt; or &lt;learningOutcome&gt; must
+**Note** At least one of &lt;aim&gt; or &lt;learningOutcome&gt; must
 be supplied.
-
-
 
 
 ### Additional elements used in the &lt;course&gt; element at other levels
@@ -774,9 +743,7 @@ be supplied.
 -   **isPartOf** (required, exactly one)
 
 
-
-
-Guidelines *This section is not normative*
+### Guidelines *This section is not normative*
 
 Programme and course component linkage example, in relation to
 constraint 'Course instances at levels lower than programme level should
@@ -806,13 +773,9 @@ course element':
 **credit:** credit values should contain credits achieved by the
 learner. If this is not possible, display required credits.
 
-\
 
 
-
-
-the &lt;dateOfBirth&gt; element
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## the &lt;dateOfBirth&gt; element
 
 
 ### Definition
@@ -828,8 +791,8 @@ Uses scop: the SEMIC-EU Core Person Specification (not yet published in
 machine readable form), which is compatible with EuroLMAI.
 
 
-the &lt;dualAward&gt; element
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;dualAward&gt; element
 
 
 ### Definition
@@ -845,8 +808,8 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-the &lt;duration&gt; element
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;duration&gt; element
 
 
 ### Definition
@@ -862,19 +825,16 @@ Producers MAY include a machine-readable attribute 'interval' that
 follows the ISO 8601 standard.
 
 
+### Guidelines *This section is not normative*
 
 
-Guidelines *This section is not normative*
-
-Example
+### Example
 
         Three years
 
 
 
-
-the &lt;ePortfolioUrl&gt; element
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## the &lt;ePortfolioUrl&gt; element
 
 
 ### Definition
@@ -882,8 +842,8 @@ the &lt;ePortfolioUrl&gt; element
 A hypertext link to the learner's ePortfolio.
 
 
-the &lt;familyName&gt; element
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;familyName&gt; element
 
 
 ### Definition
@@ -897,8 +857,8 @@ passport.
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI).
 
 
-the &lt;fullName&gt; element
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;fullName&gt; element
 
 
 ### Definition
@@ -912,8 +872,8 @@ official documents, such as a passport.
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI).
 
 
-the &lt;fullNameOfficial&gt;
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;fullNameOfficial&gt;
 
 
 ### Definition
@@ -921,8 +881,8 @@ the &lt;fullNameOfficial&gt;
 Full name of the official certifying the HEAR.
 
 
-the &lt;furtherInformation&gt; element
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;furtherInformation&gt; element
 
 
 ### Definition
@@ -938,8 +898,8 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-the &lt;furtherStudy&gt; element
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;furtherStudy&gt; element
 
 
 ### Definition
@@ -957,9 +917,7 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-
-
-Guidelines *This section is not normative*
+### Guidelines *This section is not normative*
 
 **furtherStudy:** Include the grades or standards normally necessary to
 allow progression within the EHEA.
@@ -974,8 +932,7 @@ diploma.*
 
 
 
-the &lt;givenNames&gt; element
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## the &lt;givenNames&gt; element
 
 
 ### Definition
@@ -989,8 +946,8 @@ included on official documents, such as a passport.
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI).
 
 
-the &lt;gradingScheme&gt; element
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;gradingScheme&gt; element
 
 
 ### Definition
@@ -999,8 +956,8 @@ Information about the grading scheme used for the assessment of a
 presentation.
 
 
-the &lt;identifierDescription&gt; element
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;identifierDescription&gt; element
 
 
 ### Definition
@@ -1020,8 +977,8 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-the &lt;informationSources&gt; element
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;informationSources&gt; element
 
 
 ### Definition
@@ -1037,8 +994,8 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-the &lt;isPartOf&gt; element
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;isPartOf&gt; element
 
 
 ### Definition
@@ -1048,8 +1005,8 @@ Indicates the parent course element.
 The isPartOf element MUST contain only the identifier of the parent
 course element.
 
-the &lt;issueDateHear&gt; element
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;issueDateHear&gt; element
 
 
 ### Definition
@@ -1064,8 +1021,8 @@ Uses namespace xcri: .
 xcri:dateOrDateTimeDType
 
 
-the &lt;issueDateQualification&gt; element
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;issueDateQualification&gt; element
 
 
 ### Definition
@@ -1079,8 +1036,8 @@ Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
 for which see CWA 16132.
 
 
-the &lt;issuer&gt; element
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;issuer&gt; element
 
 
 ### Definition
@@ -1100,9 +1057,7 @@ Uses namespace dc:
 -   **issuerDescription**, (required, exactly one)
 
 
-
-
-Guidelines *This section is not normative*
+### Guidelines *This section is not normative*
 
 **identifier**: This element identifiers the issuing organisation, which
 may be a different organisation from the provider or the awarding body,
@@ -1115,13 +1070,9 @@ the qualification must be contained in the provider element.
 **issuerDescription**: This element is included for compliance with the
 Europass Diploma Supplement Application Profile of the EuroLMAI.
 
-\
 
 
-
-
-the &lt;issuerDescription&gt; element
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## the &lt;issuerDescription&gt; element
 
 
 ### Definition
@@ -1134,8 +1085,8 @@ A short description of the issuer.
 Uses namespace dc: 
 
 
-the &lt;learner&gt; element
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;learner&gt; element
 
 
 ### Definition
@@ -1172,7 +1123,7 @@ Uses namespace dc:
 
 
 
-Guidelines *This section is not normative*
+### Guidelines *This section is not normative*
 
 **identifier**: Alternatives recommended in this specification include
 the Unique Learner Number (ULN) and the Scottish Candidate Number (SCN).
@@ -1189,9 +1140,7 @@ required.
 
 
 
-
-the &lt;learningOutcome&gt; element
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## the &lt;learningOutcome&gt; element
 
 
 ### Definition
@@ -1206,8 +1155,7 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-the &lt;level&gt; element
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## the &lt;level&gt; element
 
 
 ### Definition
@@ -1219,8 +1167,8 @@ The level element MUST contain the numerical position of the
 qualification in the relevant national qualifications framework.
 
 
-the &lt;minimumStandards&gt; element
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;minimumStandards&gt; element
 
 
 ### Definition
@@ -1236,8 +1184,8 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-the &lt;presentation&gt; element
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;presentation&gt; element
 
 
 ### Definition
@@ -1265,7 +1213,7 @@ Uses namespace dc:
     is optional.
 
 
-### element at Programme Level only")\] Elements used in the &lt;presentation&gt; element at Programme Level only
+### Elements used in the &lt;presentation&gt; element at Programme Level only
 
 -   **start** (required, exactly one), mlo:start (defined in mlo)
 -   **end** (required, exactly one), xcri:end (defined in xcri)
@@ -1281,9 +1229,7 @@ Uses namespace dc:
     xcri:languageOfAssessment (defined in xcri)
 
 
-
-
-Guidelines *This section is not normative*
+### Guidelines *This section is not normative*
 
 There are no additional elements only used in the &lt;presentation&gt;
 element at other levels.
@@ -1314,8 +1260,8 @@ these elements are missing, consumers should interpret this as meaning
 that the language of instruction and assessment was English (en-GB).
 
 
-the &lt;prizes&gt; element
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;prizes&gt; element
 
 
 ### Definition
@@ -1331,8 +1277,8 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-the &lt;professionalStatus&gt; element
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;professionalStatus&gt; element
 
 
 ### Definition
@@ -1348,30 +1294,23 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-
-
-Guidelines *This section is not normative*
+### Guidelines *This section is not normative*
 
 The institution may use a generic statement from a professional body or
 one of its own devising (see [HEAR Guidance
 Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf").
 
 
-the &lt;provider&gt; element
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;provider&gt; element
 
 
 ### Definition
 
 An organisation that offers one or more courses.
 
-
-
-
-Note Where the provider is also the awarding body, the provider
+**Note** Where the provider is also the awarding body, the provider
 identifier MUST match the awardedBy identifier.
-
-
 
 
 ### Namespaces
@@ -1390,8 +1329,8 @@ Uses namespace xcri:
 -   **course** (required, at least one)
 
 
-the &lt;providerStatus&gt; element
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;providerStatus&gt; element
 
 
 ### Definition
@@ -1400,8 +1339,8 @@ Describes the legal status of the provider, for example as either a
 'recognised body' or a 'listed body'.
 
 
-the &lt;qualification&gt; element
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;qualification&gt; element
 
 
 ### Definition
@@ -1444,8 +1383,8 @@ Uses namespace dc:
 -   **awardedBy** (required, exactly one)
 
 
-the &lt;qualificationHolderTitle&gt; element
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;qualificationHolderTitle&gt; element
 
 
 ### Definition
@@ -1461,8 +1400,7 @@ Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn
 .text}
 
 
-the &lt;recognisedActivities&gt; element
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## the &lt;recognisedActivities&gt; element
 
 
 ### Definition
@@ -1478,8 +1416,8 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-the &lt;referenceData&gt; element
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;referenceData&gt; element
 
 
 ### Definition
@@ -1496,16 +1434,17 @@ Uses namespace xcri: .
 
 -   **referenceDataItem** (required, one or more)
 
-the &lt;referenceDataItem&gt; element
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## the &lt;referenceDataItem&gt; element
 
 
 ### Definition
 
 Holds standard, repeated or generic text ('boilerplate' text). This text
 will typically be recommended text from the [HEAR Guidance
-Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"){.external
-.text}. It can also be used for generic assessment grading schemes that
+Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"). 
+It can also be used for generic assessment grading schemes that
 might be repeated for a large number of modules, or for standardised
 learning outcomes, so that these pieces of text can be referenced rather
 than repeated.
@@ -1518,8 +1457,8 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-the &lt;regulations&gt; element
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;regulations&gt; element
 
 
 ### Definition
@@ -1527,14 +1466,10 @@ the &lt;regulations&gt; element
 Describes the regulations concerning degree-awarding powers in the UK.
 
 
-
-
-Guidelines *This section is not normative*
+### Guidelines *This section is not normative*
 
 The recommended text is: "The power to award degrees is regulated by law
 in the UK."
-
-
 
 
 ### Namespaces
@@ -1544,8 +1479,8 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-the &lt;result&gt; element
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;result&gt; element
 
 
 ### Definition
@@ -1569,16 +1504,13 @@ for which see CWA 16132.
     conforming to the URL scheme as specified by IETF RFC 3986.
 
 
-Guidelines *This section is not normative*
+### Guidelines *This section is not normative*
 
 -   **result**: Where any zeros or mark reductions have occurred, it is
     recommended that producers record them here.
 
-
-
 -   **@resultType**: It is recommended that producers use an encoding
     scheme or controlled vocabulary for this item.
-
 
 -   **@calculationSchemeRef**: it is recommended that, if available, 
     producers use a URI maintained by a relevant authority 
@@ -1586,8 +1518,7 @@ Guidelines *This section is not normative*
 
 
 
-the &lt;signature&gt; element
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## the &lt;signature&gt; element
 
 
 ### Definition
@@ -1602,9 +1533,7 @@ Uses namespace xcri: .
 Represented as xcri:imageDType.
 
 
-
-
-Guidelines *This section is not normative*
+### Guidelines *This section is not normative*
 
 Producers should implement specific security measures to protect the
 image. This element is concerned with the graphical image of the
@@ -1615,8 +1544,9 @@ It is recommended that producers protect any HEAR document with an
 appropriate digital signature to ensure document authenticity and
 integrity.
 
-the &lt;specialFeature&gt; element
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## the &lt;specialFeature&gt; element
 
 
 ### Definition
@@ -1632,8 +1562,8 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-the &lt;subject&gt; element
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;subject&gt; element
 
 
 ### Definition
@@ -1646,9 +1576,7 @@ Main field(s) of study for the qualification.
 Uses namespace dc: .
 
 
-
-
-Guidelines *This section is not normative*
+### Guidelines *This section is not normative*
 
 **subject:** Producers should put each main field of study in a separate
 element. On output, the elements should be concatenated to form one
@@ -1659,9 +1587,7 @@ respect of the top level course (programme) element.
 
 
 
-
-the &lt;terminalAward&gt; element
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## the &lt;terminalAward&gt; element
 
 
 ### Definition
@@ -1677,8 +1603,8 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-the &lt;type&gt; element
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## the &lt;type&gt; element
 
 
 ### Definition
@@ -1693,15 +1619,13 @@ programme year, level or subject of a programme.
 
 Uses namespace dc: .
 
-<a name="XML_Schema_and_Instance">XML Schema and Instance</a>
-======================================================================================================================================================================================================================================
+# XML <a name="XML_Schema_and_Instance">Schema and Instance</a>
 
 *This section is not normative*
 
 A W3C XML Schema is available at https://github.com/Cetis/hear/blob/master/schemas/HEAR_1.0.xsd .
 
-A sample XML instance file is available at
-.
+A sample XML instance file is available at ???
 
 XCRI-CAP 1.2 schema and supporting schemas are available from the XCRI
 [website](http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd "http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd"){
