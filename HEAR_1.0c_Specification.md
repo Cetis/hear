@@ -283,9 +283,9 @@ Constraints
     course component that the learner took as part of the programme or
     that is an additional academic credit-bearing student achievement
     detailed in the HEAR.
-11. A valid exit HEAR &lt;achievementReport @status="1"&gt; MUST contain
-    exactly one result element for each presentation taken by
-    the learner.
+11. A valid exit HEAR &lt;achievementReport @status="1"&gt; MUST contain exactly one
+    assessment element for the presentation of the top-level course instance, 
+    and this assessment element must contain at least one result element.
 12. A certificationOfTheHEAR element MUST contain exactly one
     issueDateHear element.
 13. A certificationOfTheHEAR element MUST contain exactly one
@@ -334,6 +334,8 @@ Constraints
     containing 'boilerplate' text.
 29. If there are two or more provider elements, the first provider
     element SHOULD be the institution awarding the qualification.
+30. An assessment element MUST NOT contain more than one result element 
+    for any given resultType.
 
 
 element
@@ -579,7 +581,8 @@ Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn
 
 ### Elements used in the &lt;assessment&gt; element
 
--   **identifier** (required, exactly one), dc:identifier
+-   **identifier** (optional, zero or one), dc:identifier
+-   **title** (optional, zero or one), dc:title
 -   **assessmentType** (required, exactly one)
 -   **assessmentWeight** (optional, zero or one)
 -   **attempts** (optional, zero or one)
@@ -589,8 +592,24 @@ Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn
 
 
 
-Guidelines **result:** Required in an exit HEAR, at least one per
-assessment.
+Guidelines  *This section is not normative*
+
+**result:** Required in an exit HEAR, at least one per assessment.
+
+**title**: the intention of this element is to hold the local name that the institution gives to this assessment. This is needed to help students to recognise and make sense of the HEAR assessment information.
+
+**gradingScheme**: where there is a URI identifying the calculation scheme for any specific result, that should be placed in the @calculationSchemeRef attribute of the result element, rather than here.
+
+
+Examples:
+* from Gradintel:
+    <assessment>
+        <dc:title>First Degree with Honours</dc:title>
+        <assessmentType>Overall</assessmentType>
+        <result resultType="Classification" calculationSchemeRef="https://gradintel.com/calculationScheme/class_scheme_1v1.2">Second Class Honours (Upper Division)</result>
+        <result resultType="GPA" calculationSchemeRef="https://gradintel.com/calculationScheme/gpa_scheme_1v1.1">3.14</result>
+        <gradingScheme>(the explanation of the grading Scheme............)</gradingScheme>
+    </assessment>
 
 
 
@@ -1524,23 +1543,23 @@ the &lt;result&gt; element
 
 ### Definition
 
-The actual outcome of a presentation for a learner as stated by a
+The actual outcome of an assessment of a presentation for a learner as stated by a
 provider or issuer.
 
 
 ### Namespaces
 
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see [CWA
-16132](http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf "http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf").
+for which see CWA 16132.
 
 
 ### Attributes used in the &lt;result&gt; element
 
--   @resultType. Indicates whether the result is a mark, grade
-    or similar.
+-   @resultType. Indicates whether the result is a mark, grade,
+    class, GPA, etc.
 
-
+-   @calculationSchemeRef. It MUST be A Uniform Resource Identifier (URI) 
+    conforming to the URL scheme as specified by IETF RFC 3986.
 
 
 Guidelines *This section is not normative*
@@ -1553,6 +1572,10 @@ Guidelines *This section is not normative*
 -   **@resultType**: It is recommended that producers use an encoding
     scheme or controlled vocabulary for this item.
 
+
+-   **@calculationSchemeRef**: it is recommended that, if available, 
+    producers use a URI maintained by a relevant authority 
+    which correctly identifies the calculation scheme.
 
 
 
