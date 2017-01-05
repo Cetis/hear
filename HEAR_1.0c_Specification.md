@@ -605,13 +605,13 @@ Examples:
 * from Gradintel:
 
 
-    <assessment>
-        <dc:title>First Degree with Honours</dc:title>
-        <assessmentType>Overall</assessmentType>
-        <result resultType="Classification" calculationSchemeRef="https://gradintel.com/calculationScheme/class_scheme_1v1.2">Second Class Honours (Upper Division)</result>
-        <result resultType="GPA" calculationSchemeRef="https://gradintel.com/calculationScheme/gpa_scheme_1v1.1">3.14</result>
-        <gradingScheme>(the explanation of the grading Scheme............)</gradingScheme>
-    </assessment>
+    &lt;assessment&gt;
+        &lt;dc:title&gt;First Degree with Honours&lt;/dc:title&gt;
+        &lt;assessmentType&gt;Overall&lt;/assessmentType&gt;
+        &lt;result resultType="Classification" calculationSchemeRef="https://gradintel.com/calculationScheme/class_scheme_1v1.2"&gt;Second Class Honours (Upper Division)&lt;/result&gt;
+        &lt;result resultType="GPA" calculationSchemeRef="https://gradintel.com/calculationScheme/gpa_scheme_1v1.1"&gt;3.14&lt;/result&gt;
+        &lt;gradingScheme&gt;(the explanation of the grading Scheme............)&lt;/gradingScheme&gt;
+    &lt;/assessment&gt;
 
 
 
