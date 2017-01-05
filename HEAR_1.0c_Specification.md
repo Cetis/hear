@@ -603,6 +603,8 @@ Guidelines  *This section is not normative*
 
 Examples:
 * from Gradintel:
+
+
     <assessment>
         <dc:title>First Degree with Honours</dc:title>
         <assessmentType>Overall</assessmentType>
