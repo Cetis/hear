@@ -401,7 +401,7 @@ SHOULD be the institution awarding the qualification.
 
 
 
-### \[[edit](http://www.xcri.org/wiki/index.php?title=HEAR_1.0c_Specification&action=edit&section=18 "Edit section: Attributes used in the &lt;achievementReport&gt; element")\] Attributes used in the &lt;achievementReport&gt; element
+### Attributes used in the &lt;achievementReport&gt; element
 
 -   @id\. Unique identifier for this HEAR.
 -   @status\. Defines the type of this HEAR; enumeration: 1=Exit,
@@ -545,12 +545,12 @@ Guidelines *This section is not normative*
          
               
                    
-                        To provide flexible teaching and learning programmes of high quality, in which students can develop their own interests.
-                        To provide a stimulating and supportive environment for all students to work in.
-                        To provide an education that will enable graduates to follow a variety of careers, including higher degrees and research.
-                        To enable all students to have a broad appreciation of Biological Sciences and advanced knowledge of one or more areas.
-                        To enable all students to develop subject-specific knowledge with practical and transferable skills.
-                        To enable all students to experience, within the 4 year options, work in an external research laboratory or European University.
+        To provide flexible teaching and learning programmes of high quality, in which students can develop their own interests.
+        To provide a stimulating and supportive environment for all students to work in.
+        To provide an education that will enable graduates to follow a variety of careers, including higher degrees and research.
+        To enable all students to have a broad appreciation of Biological Sciences and advanced knowledge of one or more areas.
+        To enable all students to develop subject-specific knowledge with practical and transferable skills.
+        To enable all students to experience, within the 4 year options, work in an external research laboratory or European University.
                    
               
          
