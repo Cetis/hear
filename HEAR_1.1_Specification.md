@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-# HEAR 1.1 Specification 
+# HEAR 1.1 Specification (Draft)
 
 ## About
 
@@ -16,16 +16,16 @@ Changes from 1.0c:
 -   Constraint 11 modified to allow multiple result elements for an assessment
 -   Constraint 30 added so that no resultType can appear more than once in a result
 -   &lt;assessment&gt; element changed
-    + to make the identifier optional
-    + to allow an optional title
-    + guidance added for title and gradingScheme
-    + to add an example
+    + making the identifier optional
+    + allowing an optional title
+    + adding guidance for title and gradingScheme
+    + adding an example
 -   &lt;result&gt; element changed
-    + definition made clearer
-    + namespace URI removed as no longer valid
-    + @resultType attribute explanation expanded
-    + @calculationSchemeref attribute introduced
-    + guidance added for @calculationSchemeRef
+    + making definition clearer
+    + removing namespace URI as no longer valid
+    + expanding @resultType attribute explanation
+    + adding new @calculationSchemeref attribute
+    + adding guidance for @calculationSchemeRef
 
 ### Patents
 
@@ -38,20 +38,24 @@ please email the editors.
 
 ### Copyright and License
 
-TBC
+**NEEDED!**
+Suggested: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 
 ### Inspiration and acknowledgements
 
-The authors wish to acknowledge the work of the supporting HEAR
-Technical Specification Working Group, in particular:
+The authors wish to acknowledge the work of the HEAR
+Technical Specification Working Group and others, in particular:
 
 -   John Bolland
 -   Sarah Davies
 -   Andy Dowling
 -   Richard Entwistle
 -   Simon Grant
+-   Alan Paull
+-   David Sherlock
 -   Rob Ward
+-   Scott Wilson
 -   James Wong
 -   Andy Youell
 
@@ -65,6 +69,7 @@ achievement of learners between Higher Education providers, employers,
 brokers and other relevant organisations. It is compliant with the \[CEN
 European Learner Mobility Workshop Agreement CWA 16132
 \]
+TODO: change to EN 15981
 
 
 A HEAR XML instance document typically consists of a top-level
@@ -309,6 +314,7 @@ organisations themselves.
     course, or indirectly through inclusion of the identifier of another
     course element. See
     [example](HEAR_1.0c_Specification#Additional_elements_used_in_the_.3Ccourse.3E_element_at_other_levels "http://www.xcri.org/HEAR_1.0c_Specification#Additional_elements_used_in_the_.3Ccourse.3E_element_at_other_levels").
+    TODO: fix this.
 26. Instances of associate qualifications or other achievements not
     forming part of the learner's academic achievements as a result of
     following the indicated programme of study MAY be recorded in the
@@ -488,6 +494,8 @@ prizes.
 
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
 for which see CWA 16132.
+TODO: change to EN 15981
+
 
 
 ### Elements used in the &lt;additionalInformation&gt; element
@@ -550,8 +558,9 @@ Uses namespace xcri: .
 
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
 for which see [CWA
-16132](http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf "http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf"){.external
-.text}.
+16132].
+TODO: change to EN 15981?
+
 
 Uses eds: [European Diploma
 Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp "http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp"){.external
@@ -1034,6 +1043,7 @@ Date on which the qualification was awarded.
 
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
 for which see CWA 16132.
+TODO: change to EN 15981
 
 
 
@@ -1354,8 +1364,7 @@ Uses namespace xcri: .
 
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
 for which see [CWA
-16132](http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf "http://www.cen-wslt.din.de/sixcms_upload/media/3378/CWA16132.pdf"){.external
-.text}.
+16132].
 
 Uses eds: [European Diploma
 Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp "http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp"){.external
@@ -1493,6 +1502,7 @@ provider or issuer.
 
 Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
 for which see CWA 16132.
+TODO: change to EN 15981
 
 
 ### Attributes used in the &lt;result&gt; element
@@ -1624,6 +1634,7 @@ Uses namespace dc: .
 *This section is not normative*
 
 A W3C XML Schema is available at https://github.com/Cetis/hear/blob/master/schemas/HEAR_1.0.xsd .
+TODO needs replacing and updating.
 
 A sample XML instance file is available at ???
 
