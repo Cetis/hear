@@ -38,8 +38,7 @@ please email the editors.
 
 ### Copyright and License
 
-**NEEDED!**
-Suggested: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+**Suggested:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 
 ### Inspiration and acknowledgements
@@ -66,50 +65,55 @@ The Higher Education Achievement Report (HEAR) technical specification
 defines an XML format for the content of the HEAR. It is intended to
 enable the interoperability of descriptions of the Higher Education
 achievement of learners between Higher Education providers, employers,
-brokers and other relevant organisations. It is compliant with the \[CEN
-European Learner Mobility Workshop Agreement CWA 16132
-\]
-TODO: change to EN 15981
+brokers and other relevant organisations. With a few minor alterations, 
+it is compliant with the Diploma Supplement Annex of EN 15981, "EuroLMAI",
+European Learner Mobility Achievement Information.
+(For openly available information see
+[CEN Workshop Agreement CWA 16132](ftp://ftp.cen.eu/CEN/Sectors/List/ICT/CWAs/CWA16132_2010_EuroLMI.pdf))
 
 
 A HEAR XML instance document typically consists of a top-level
-&lt;achievementReport&gt; element, encapsulating:
+&lt;achievementReport&gt; element, including:
 
--   a single &lt;issuer&gt; responsible for issuing the HEAR,
--   a single &lt;learner&gt;, the subject of the HEAR,
+-   a single &lt;issuer&gt;, responsible for issuing the HEAR;
+-   a single &lt;learner&gt;, the subject of the HEAR;
 -   one or more &lt;provider&gt; elements, containing descriptions of
     the learning undertaken and a single exit qualification awarded as a
-    result,
+    result;
 -   additional information about academic and non-academic achievements
     during the period of study not directly related to the qualification
-    awarded,
+    awarded;
 -   formal certification of the HEAR.
 
-The following diagram illustrates the main elements of the
-specification.
+The following diagram illustrates the main elements of the specification.
 
 [![Image:HEAROutlineInformationModel2011-02-17.png](images/HEAROutlineInformationModel2011-02-17.png)]
+
+
 
 
 # Normative References
 
 \[XCRI-CAP 1.2\] eXchanging Course Related Information Course
-Advertising Profile. See
-
+Advertising Profile. See http://cetis.github.io/xcri/xcri/
 
 \[EN 15982\] EN 15982: Metadata For Learning Opportunities (Advertising)
 
 \[ISO 15836\] ISO 15836: Dublin Core Element Set
 
-\[ISO 8601\] ISO 8601:Data elements and interchange formats ‚Äî
-Information interchange ‚Äî Representation of dates and times
+\[ISO 8601\] ISO 8601:Data elements and interchange formats &ndash;
+Information interchange &ndash; Representation of dates and times
 
-\[W3C DTF\] W3C Date and Time Formats. See
+\[W3C DTF\] W3C Date and Time Formats. 
+See https://www.w3.org/TR/NOTE-datetime 
+
+\[W3C XML Schema\] W3C XML Schema. 
+See https://www.w3.org/XML/Schema
+
+\[CWA 16077\] CWA 16077: Educational Credit Information Model.
+See ftp://ftp.cen.eu/CEN/Sectors/TCandWorkshops/Workshops/CWA16077.pdf 
 
 
-\[W3C XML Schema\] W3C XML Schema. See 
-
-\[CWA 16077\] CWA 16077: Educational Credit Information Model
 
 
 # Conformance
@@ -144,6 +148,7 @@ A **conforming consumer** MUST be capable of processing *strictly
 conforming instances*.
 
 
+
 ## HEAR Documents
 
 A producer MUST create HEAR documents that are valid XML documents.
@@ -153,7 +158,8 @@ as its top-level element.
 
 A consumer MUST be able to process a valid HEAR XML document.
 
-Guidelines *This section is not normative*
+
+### Guidelines *This section is not normative*
 
 **Multilingual HEAR data sets:** Producers should create multiple XML
 instances for HEAR data sets required entirely in more than one
@@ -165,15 +171,14 @@ language, for example English and Welsh.
 *This section is not normative*
 
 This specification covers the structure of the XML representation of the
-HEAR data; it does not define the structure of the HEAR document per se.
+HEAR data; it does not define the structure of the HEAR document *per se*.
 The following information is provided to give context to the
 specification of the data elements. Readers are asked to refer to the
-[HEAR Guidance
-Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf") for more details.
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf")
+for more details.
 
-A HEAR must adhere to the prescribed template described in the [HEAR
-Guidance
-Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf") The Guidance defines the sections of the HEAR and requires that
+A HEAR must adhere to the prescribed template described in the
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf") The Guidance defines the sections of the HEAR and requires that
 sections are numbered and follow the sequence and explanatory guidance
 given in the Guidance Document.
 
@@ -191,23 +196,28 @@ The structure of the template for a HEAR is as follows:
 
 On output for printing or for viewing electronically a HEAR should
 contain section numbering and standard statements as described in the
-[HEAR Guidance
-Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf").
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf").
+
+
 
 
 ## Contextual Information
 
 *This section is not normative*
 
-The [HEAR Guidance
-Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf") gives details of statements that should be included in the HEAR
+The 
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf")
+gives details of statements that should be included in the HEAR
 at specified points, for example a standard statement at the start of
 the HEAR should be included in order to meet the requirements of the
-European Diploma Supplement (DS). Information about these statements is
+Europass Diploma Supplement (DS). Information about these statements is
 included in the Guidance sections of this specification.
 
 
-Guidelines In the Contextual Information of the HEAR,
+
+### Guidelines *This section is not normative*
+
+In the Contextual Information of the HEAR,
 institutions are advised to include the following statements:
 
 *This Higher Education Achievement Report follows the model developed by
@@ -232,6 +242,8 @@ specification makes provision for inclusion of of these statements in
 the HEAR XML Data Set if desired by systems designers.
 
 
+
+
 # XML Document Structure
 
 This section defines the root achievementReport element and relates the
@@ -251,6 +263,8 @@ assessment results and other accredited achievements for each completed
 learning opportunity, and information about the awarding and providing
 organisations themselves.
 
+
+
 ## Constraints
 
 1.  A valid HEAR MUST contain exactly one issuer element.
@@ -259,8 +273,8 @@ organisations themselves.
 4.  A valid HEAR MUST contain exactly one qualification element.
 5.  A valid HEAR MUST contain exactly one top level course element.
 6.  A valid HEAR MUST contain exactly one additionalInformation element.
-    Guidance on its contents is given in the [HEAR Guidance
-    Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf").
+    Guidance on its contents is given in the 
+    [HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf").
 7.  A valid HEAR MUST contain exactly one
     certificationOfTheHEAR element.
 8.  A valid HEAR MUST contain exactly one identifier element for the
@@ -304,8 +318,8 @@ organisations themselves.
 23. Where an element has more than one identifier, it MUST NOT contain
     more than one identifier without an explicitly-defined encoding
     scheme, and this MUST be A Uniform Resource Identifier (URI)
-    conforming to the URL scheme as specified by [IETF RFC
-    3986](http://tools.ietf.org/html/rfc3986 "http://tools.ietf.org/html/rfc3986").
+    conforming to the URL scheme as specified by 
+    [IETF RFC 3986](http://tools.ietf.org/html/rfc3986 "http://tools.ietf.org/html/rfc3986").
 24. The top level course instance SHOULD define the Programme Level
     learning opportunity undertaken by the learner.
 25. Course instances at levels lower than programme level SHOULD be
@@ -329,7 +343,9 @@ organisations themselves.
     for any given resultType.
 
 
+
 ## the &lt;achievementReport&gt; element
+
 
 ### Definition
 
@@ -379,9 +395,7 @@ top level elements, as noted in this guidance.
 -   certificationOfTheHEAR (required, exactly one)
 
 
-
-
-Guidelines *This section is not normative*
+### Guidelines *This section is not normative*
 
 If there are two or more provider elements, the first provider element
 SHOULD be the institution awarding the qualification.
@@ -396,15 +410,20 @@ SHOULD be the institution awarding the qualification.
     2=Formative, 3=Deleted.
 
 
+
+
 # <a name="Definition_of_Common_Elements">Definition of Common Elements</a>
 
-Many of the elements in the HEAR use the following common elements. Also
-see [Definition of Other Elements](#Definition_of_Other_Elements) For elements re-used from other namespaces (for example Dublin
+Many of the elements in the HEAR use the following common elements. 
+Also see 
+[Definition of Other Elements](#Definition_of_Other_Elements).
+For elements re-used from other namespaces (for example Dublin
 Core, XCRI) refer to documentation for those specifications.
 
 
 
 ## the &lt;identifier&gt; element
+
 
 ### Definition
 
@@ -426,16 +445,17 @@ Example:
 
 ## the &lt;title&gt; element
 
+
 ### Definition
 
 The name of the resource.
+
 
 ### Namespaces
 
 See \[EN 15982\] and \[ISO 15836\].
 
 Uses namespace dc: .
-
 
 
 
@@ -492,10 +512,9 @@ prizes.
 
 ### Namespaces
 
-Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
+Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
 for which see CWA 16132.
 TODO: change to EN 15981
-
 
 
 ### Elements used in the &lt;additionalInformation&gt; element
@@ -519,13 +538,13 @@ Describes the aim(s) of the programme.
 
 ### Namespaces
 
-Uses mlo:\[EN 15982\] EN 15982: Metadata For Learning Opportunities
+Uses namespace mlo: \[EN 15982\] EN 15982: Metadata For Learning Opportunities
 (Advertising)
 
 Represented as mlo:objective.
 
 
-Guidelines *This section is not normative*
+### Guidelines *This section is not normative*
 
     
     ...
@@ -556,15 +575,13 @@ presentation of the course was judged.
 
 Uses namespace xcri: .
 
-Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see [CWA
-16132].
+Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
+for which see [CWA 16132].
 TODO: change to EN 15981?
 
 
-Uses eds: [European Diploma
-Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp "http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp"){.external
-.text}
+Uses namespace eds: 
+[Europass Diploma Supplement](http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement "http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement")
 
 
 ### Elements used in the &lt;assessment&gt; element
@@ -578,9 +595,7 @@ Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn
 -   **gradingScheme** (required, exactly one)
 
 
-
-
-### Guidelines  *This section is not normative*
+### Guidelines *This section is not normative*
 
 **result:** Required in an exit HEAR, at least one per assessment.
 
@@ -614,7 +629,6 @@ Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn
 ### Definition
 
 Description of the style of the assessment.
-
 
 
 ### Guidelines *This section is not normative*
@@ -656,8 +670,8 @@ Body) that confers the qualification upon the learner.
 
 -   @idRef\. The idRef attribute MUST identify the Awarding Body specified in
     the awardedBy element. It MUST be A Uniform Resource Identifier (URI)
-    conforming to the URL scheme as specified by [IETF RFC
-    3986](http://tools.ietf.org/html/rfc3986 "http://tools.ietf.org/html/rfc3986").
+    conforming to the URL scheme as specified by 
+    [IETF RFC 3986](http://tools.ietf.org/html/rfc3986 "http://tools.ietf.org/html/rfc3986").
 
 
 
@@ -669,7 +683,6 @@ contain &lt;providerStatus&gt; and a course element that identifies the
 programme, the qualification and confirms the awarding body through the
 &lt;qualification&gt; and &lt;awardedBy&gt; structure. This structure
 enables compliance with XCRI-CAP and EuroLMI.
-
 
 
 
@@ -720,7 +733,7 @@ learning provider.
 
 Uses namespace xcri: .
 
-Uses mlo: \[EN 15982\] EN 15982: Metadata For Learning Opportunities
+Uses namespace mlo: \[EN 15982\] EN 15982: Metadata For Learning Opportunities
 (Advertising)
 
 Uses namespace dc: 
@@ -762,17 +775,12 @@ course, or indirectly through inclusion of the identifier of another
 course element':
 
         
-            
             1234
             Information and Communications Undergraduate Programme
-        
-        
             
             1234-01
             Digital Media and Communications - Stage 1
             1234
-        
-        
             
             M223
             Information Literacies for the Digital Age
@@ -796,7 +804,7 @@ format as refined by W3C DTF 'Complete Date': yyyy-mm-dd (example:
 
 ### Namespaces
 
-Uses scop: the SEMIC-EU Core Person Specification (not yet published in
+Uses namespace scop: the SEMIC-EU Core Person Specification (not yet published in
 machine readable form), which is compatible with EuroLMAI.
 
 
@@ -863,7 +871,7 @@ passport.
 
 ### Namespaces
 
-Uses elm: European Learner Mobility Achievement Information (EuroLMAI).
+Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI).
 
 
 
@@ -878,7 +886,7 @@ official documents, such as a passport.
 
 ### Namespaces
 
-Uses elm: European Learner Mobility Achievement Information (EuroLMAI).
+Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI).
 
 
 
@@ -931,13 +939,12 @@ Extension of xcri:descriptionDType.
 **furtherStudy:** Include the grades or standards normally necessary to
 allow progression within the EHEA.
 
-For example:
+
+### Example:
 
 *Access to postgraduate study: Bologna FQ-EHEA 3rd cycle PhD or MD.*
 
-*Access to postgraduate study: Bologna FQ-EHEA 2nd cycle degree or
-diploma.*
-
+*Access to postgraduate study: Bologna FQ-EHEA 2nd cycle degree or diploma.*
 
 
 
@@ -952,7 +959,7 @@ included on official documents, such as a passport.
 
 ### Namespaces
 
-Uses elm: European Learner Mobility Achievement Information (EuroLMAI).
+Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI).
 
 
 
@@ -1015,6 +1022,7 @@ The isPartOf element MUST contain only the identifier of the parent
 course element.
 
 
+
 ## the &lt;issueDateHear&gt; element
 
 
@@ -1041,7 +1049,7 @@ Date on which the qualification was awarded.
 
 ### Namespaces
 
-Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
+Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
 for which see CWA 16132.
 TODO: change to EN 15981
 
@@ -1106,9 +1114,9 @@ Information identifying the holder of the qualification.
 
 ### Namespaces
 
-Uses elm: European Learner Mobility Achievement Information (EuroLMAI).
+Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI).
 
-Uses scop: the SEMIC-EU Core Person Specification (not yet published in
+Uses namespace scop: the SEMIC-EU Core Person Specification (not yet published in
 machine readable form), which is compatible with EuroLMAI.
 
 Uses namespace dc: 
@@ -1129,8 +1137,6 @@ Uses namespace dc:
 -   **givenNames** (required, exactly one)
 -   **fullName** (optional, zero or one)
 -   **dateOfBirth** (required, exactly one)
-
-
 
 
 ### Guidelines *This section is not normative*
@@ -1163,6 +1169,7 @@ Describes the overall learning outcome(s) of the programme.
 Uses namespace xcri: .
 
 Extension of xcri:descriptionDType.
+
 
 
 ## the &lt;level&gt; element
@@ -1207,7 +1214,7 @@ Details of the instance or version of the course enrolled on.
 
 Uses namespace xcri: .
 
-Uses mlo: \[EN 15982\] EN 15982: Metadata For Learning Opportunities
+Uses namespace mlo: \[EN 15982\] EN 15982: Metadata For Learning Opportunities
 (Advertising)
 
 Uses namespace dc: 
@@ -1230,9 +1237,8 @@ Uses namespace dc:
 -   **accessRequirements** (required, exactly one)
 -   **minimumStandards** (required, exactly one)
 -   **duration** (required, exactly one)
--   **studyMode** (required, exactly one), xcri:studyMode (defined in
-    xcri)\[suggested amendment: There is no prescribed vocabulary for
-    studyMode used in the HEAR. AEP\]
+-   **studyMode** (required, exactly one), xcri:studyMode 
+    (defined in xcri)
 -   **languageOfInstruction** (required, at least one),
     mlo:languageOfInstruction (defined in mlo)
 -   **languageOfAssessment** (required, at least one),
@@ -1250,16 +1256,18 @@ the presentation element.
 **accessRequirements**: Producers may implement this content using
 'boilerplate' text and a hyperlink to specific documents held elsewhere;
 in this case, implementers should have regard to the persistence of the
-hyperlinks and the associated content, for example: "Detailed
-information regarding admission to the programme is available in the
-University's on-line Prospectus at:
-www.easthampton.ac.uk/admissions/ugprospectus/06." See [HEAR Guidance
-Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"){.external
-.text}, section 3.3.
+hyperlinks and the associated content, for example: 
+"Detailed information regarding admission to the programme is 
+available in the University's on-line Prospectus at:
+www.easthampton.ac.uk/admissions/ugprospectus/06" 
+See 
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"), section 3.3.
 
-**minimumStandards**: See [HEAR Guidance
-Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"){.external
-.text}, section 4.2.
+**minimumStandards**: See 
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"), section 4.2.
+
+**studyMode**: This specification does not prescribe a vocabulary
+for studyMode.
 
 **Output of languageOfInstruction and languageOfAssessment:** Consumers
 should present final form output of these elements as human readable
@@ -1307,8 +1315,8 @@ Extension of xcri:descriptionDType.
 ### Guidelines *This section is not normative*
 
 The institution may use a generic statement from a professional body or
-one of its own devising (see [HEAR Guidance
-Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf").
+one of its own devising (see 
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf").
 
 
 
@@ -1362,13 +1370,11 @@ A status awarded to or conferred on a learner by an awarding body.
 
 Uses namespace xcri: .
 
-Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see [CWA
-16132].
+Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
+for which see [CWA 16132].
 
-Uses eds: [European Diploma
-Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp "http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp"){.external
-.text}
+Uses namespace eds: 
+[Europass Diploma Supplement](http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement "http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement")
 
 Uses namespace dc: 
 
@@ -1404,9 +1410,9 @@ of Science (Honours)*.
 
 ### Namespaces
 
-Uses eds: [European Diploma
-Supplement](http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp "http://europass.cedefop.europa.eu/europass/home/vernav/InformationOn/EuropassDiplomaSupplement.csp"){.external
-.text}
+Uses namespace eds: 
+[Europass Diploma Supplement](http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement "http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement")
+
 
 
 ## the &lt;recognisedActivities&gt; element
@@ -1451,8 +1457,8 @@ Uses namespace xcri: .
 ### Definition
 
 Holds standard, repeated or generic text ('boilerplate' text). This text
-will typically be recommended text from the [HEAR Guidance
-Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"). 
+will typically be recommended text from the 
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"). 
 It can also be used for generic assessment grading schemes that
 might be repeated for a large number of modules, or for standardised
 learning outcomes, so that these pieces of text can be referenced rather
@@ -1500,7 +1506,7 @@ provider or issuer.
 
 ### Namespaces
 
-Uses elm: European Learner Mobility Achievement Information (EuroLMAI),
+Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
 for which see CWA 16132.
 TODO: change to EN 15981
 
@@ -1629,14 +1635,19 @@ programme year, level or subject of a programme.
 
 Uses namespace dc: .
 
+
+
+
 # XML <a name="XML_Schema_and_Instance">Schema and Instance</a>
 
 *This section is not normative*
 
 A W3C XML Schema is available at https://github.com/Cetis/hear/blob/master/schemas/HEAR_1.0.xsd .
-TODO needs replacing and updating.
+**TODO needs replacing and updating.**
 
-A sample XML instance file is available at ???
+A sample XML instance file is available at **???**
 
-XCRI-CAP 1.2 schema and supporting schemas are available from the XCRI
-[website](http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd "http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd"){
+XCRI-CAP 1.2 schema and supporting schemas are available from the
+[XCRI website](http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd "http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd")
+
+
