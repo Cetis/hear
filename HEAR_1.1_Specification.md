@@ -1642,8 +1642,7 @@ Uses namespace dc: .
 
 *This section is not normative*
 
-A W3C XML Schema is available at https://github.com/Cetis/hear/blob/master/schemas/HEAR_1.0.xsd .
-**TODO needs replacing and updating.**
+A W3C XML Schema is available at https://github.com/Cetis/hear/blob/master/schemas/HEAR_1.1.xsd .
 
 A sample XML instance file is available at **???**
 
