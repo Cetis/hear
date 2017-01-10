@@ -182,11 +182,11 @@ This specification covers the structure of the XML representation of the
 HEAR data; it does not define the structure of the HEAR document *per se*.
 The following information is provided to give context to the
 specification of the data elements. Readers are asked to refer to the
-[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf")
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf)
 for more details.
 
 A HEAR must adhere to the prescribed template described in the
-[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf") The Guidance defines the sections of the HEAR and requires that
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf) The Guidance defines the sections of the HEAR and requires that
 sections are numbered and follow the sequence and explanatory guidance
 given in the Guidance Document.
 
@@ -204,7 +204,7 @@ The structure of the template for a HEAR is as follows:
 
 On output for printing or for viewing electronically a HEAR should
 contain section numbering and standard statements as described in the
-[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf").
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf).
 
 
 
@@ -214,7 +214,7 @@ contain section numbering and standard statements as described in the
 *This section is not normative*
 
 The 
-[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf")
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf)
 gives details of statements that should be included in the HEAR
 at specified points, for example a standard statement at the start of
 the HEAR should be included in order to meet the requirements of the
@@ -277,14 +277,13 @@ organisations themselves.
 
 1.  A valid HEAR MUST contain exactly one issuer element.
 2.  A valid HEAR MUST contain exactly one learner element.
-3.  A valid HEAR MUST contain one or more provider element.
+3.  A valid HEAR MUST contain one or more provider elements.
 4.  A valid HEAR MUST contain exactly one qualification element.
 5.  A valid HEAR MUST contain exactly one top level course element.
 6.  A valid HEAR MUST contain exactly one additionalInformation element.
     Guidance on its contents is given in the 
-    [HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf").
-7.  A valid HEAR MUST contain exactly one
-    certificationOfTheHEAR element.
+    [HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf).
+7.  A valid HEAR MUST contain exactly one certificationOfTheHEAR element.
 8.  A valid HEAR MUST contain exactly one identifier element for the
     following elements: assessment, certificationOfTheHEAR, course,
     presentation, qualification.
@@ -1271,10 +1270,10 @@ hyperlinks and the associated content, for example:
 available in the University's on-line Prospectus at:
 www.easthampton.ac.uk/admissions/ugprospectus/06" 
 See 
-[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"), section 3.3.
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf), section 3.3.
 
 **minimumStandards**: See 
-[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"), section 4.2.
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf), section 4.2.
 
 **studyMode**: This specification does not prescribe a vocabulary
 for studyMode.
@@ -1326,7 +1325,7 @@ Extension of xcri:descriptionDType.
 
 The institution may use a generic statement from a professional body or
 one of its own devising (see 
-[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf").
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf).
 
 
 
@@ -1468,7 +1467,7 @@ Uses namespace xcri: .
 
 Holds standard, repeated or generic text ('boilerplate' text). This text
 will typically be recommended text from the 
-[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf "http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf"). 
+[HEAR Guidance Document](http://www.alanpaull.co.uk/HEAR/documents/HEAR_Guidance_DRAFT_FINAL_V6.pdf). 
 It can also be used for generic assessment grading schemes that
 might be repeated for a large number of modules, or for standardised
 learning outcomes, so that these pieces of text can be referenced rather
