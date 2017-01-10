@@ -113,8 +113,13 @@ See https://www.w3.org/XML/Schema
 \[CWA 16077\] CWA 16077: Educational Credit Information Model.
 See ftp://ftp.cen.eu/CEN/Sectors/TCandWorkshops/Workshops/CWA16077.pdf 
 
+# Informative References
 
+\[CWA 16132\] European Learner Mobility Achievement Information (EuroLMAI).
+See ftp://ftp.cen.eu/CEN/Sectors/List/ICT/CWAs/CWA16132_2010_EuroLMI.pdf
 
+\[HEAR Guidance Document\].
+See ???
 
 # Conformance
 
@@ -513,8 +518,7 @@ prizes.
 ### Namespaces
 
 Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see CWA 16132.
-TODO: change to EN 15981
+for which see EN 15981 or [CWA 16132].
 
 
 ### Elements used in the &lt;additionalInformation&gt; element
@@ -538,7 +542,7 @@ Describes the aim(s) of the programme.
 
 ### Namespaces
 
-Uses namespace mlo: \[EN 15982\] EN 15982: Metadata For Learning Opportunities
+Uses namespace mlo: \[EN 15982\]: Metadata For Learning Opportunities
 (Advertising)
 
 Represented as mlo:objective.
@@ -576,8 +580,8 @@ presentation of the course was judged.
 Uses namespace xcri: .
 
 Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see [CWA 16132].
-TODO: change to EN 15981?
+for which see EN 15981 or [CWA 16132].
+
 
 
 Uses namespace eds: 
@@ -733,7 +737,7 @@ learning provider.
 
 Uses namespace xcri: .
 
-Uses namespace mlo: \[EN 15982\] EN 15982: Metadata For Learning Opportunities
+Uses namespace mlo: \[EN 15982\]: Metadata For Learning Opportunities
 (Advertising)
 
 Uses namespace dc: 
@@ -1050,8 +1054,7 @@ Date on which the qualification was awarded.
 ### Namespaces
 
 Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see CWA 16132.
-TODO: change to EN 15981
+for which see EN 15981 or [CWA 16132].
 
 
 
@@ -1214,7 +1217,7 @@ Details of the instance or version of the course enrolled on.
 
 Uses namespace xcri: .
 
-Uses namespace mlo: \[EN 15982\] EN 15982: Metadata For Learning Opportunities
+Uses namespace mlo: \[EN 15982\]: Metadata For Learning Opportunities
 (Advertising)
 
 Uses namespace dc: 
@@ -1371,7 +1374,7 @@ A status awarded to or conferred on a learner by an awarding body.
 Uses namespace xcri: .
 
 Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see [CWA 16132].
+for which see EN 15981 or [CWA 16132].
 
 Uses namespace eds: 
 [Europass Diploma Supplement](http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement "http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement")
@@ -1507,8 +1510,7 @@ provider or issuer.
 ### Namespaces
 
 Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see CWA 16132.
-TODO: change to EN 15981
+for which see EN 15981 or [CWA 16132].
 
 
 ### Attributes used in the &lt;result&gt; element
