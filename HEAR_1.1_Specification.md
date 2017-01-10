@@ -66,10 +66,10 @@ defines an XML format for the content of the HEAR. It is intended to
 enable the interoperability of descriptions of the Higher Education
 achievement of learners between Higher Education providers, employers,
 brokers and other relevant organisations. With a few minor alterations, 
-it is compliant with the Diploma Supplement Annex of EN 15981, "EuroLMAI",
+it is compliant with the Diploma Supplement Annex of \[EN 15981\], "EuroLMAI",
 European Learner Mobility Achievement Information.
 (For openly available information see
-[CEN Workshop Agreement CWA 16132](ftp://ftp.cen.eu/CEN/Sectors/List/ICT/CWAs/CWA16132_2010_EuroLMI.pdf))
+[CEN Workshop Agreement \[CWA 16132\]](ftp://ftp.cen.eu/CEN/Sectors/List/ICT/CWAs/CWA16132_2010_EuroLMI.pdf))
 
 
 A HEAR XML instance document typically consists of a top-level
@@ -117,6 +117,9 @@ See ftp://ftp.cen.eu/CEN/Sectors/TCandWorkshops/Workshops/CWA16077.pdf
 
 \[CWA 16132\] European Learner Mobility Achievement Information (EuroLMAI).
 See ftp://ftp.cen.eu/CEN/Sectors/List/ICT/CWAs/CWA16132_2010_EuroLMI.pdf
+
+\[EN 15981\] European Learner Mobility — Achievement information (EuroLMAI).
+Available from BSI and other CEN Member Bodies.
 
 \[HEAR Guidance Document\].
 See ???
@@ -331,9 +334,8 @@ organisations themselves.
     related to the top level course instance using the isPartOf element,
     either directly through inclusion of the identifier of the top level
     course, or indirectly through inclusion of the identifier of another
-    course element. See
-    [example](HEAR_1.0c_Specification#Additional_elements_used_in_the_.3Ccourse.3E_element_at_other_levels "http://www.xcri.org/HEAR_1.0c_Specification#Additional_elements_used_in_the_.3Ccourse.3E_element_at_other_levels").
-    TODO: fix this.
+    course element. See below,
+    [Additional elements used in the <course> element at other levels](https://github.com/Cetis/hear/blob/master/HEAR_1.1_Specification.md#additional-elements-used-in-the-course-element-at-other-levels).
 26. Instances of associate qualifications or other achievements not
     forming part of the learner's academic achievements as a result of
     following the indicated programme of study MAY be recorded in the
@@ -518,7 +520,7 @@ prizes.
 ### Namespaces
 
 Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see EN 15981 or [CWA 16132].
+for which see \[EN 15981\] or \[CWA 16132\].
 
 
 ### Elements used in the &lt;additionalInformation&gt; element
@@ -580,7 +582,7 @@ presentation of the course was judged.
 Uses namespace xcri: .
 
 Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see EN 15981 or [CWA 16132].
+for which see \[EN 15981\] or \[CWA 16132\].
 
 
 
@@ -809,7 +811,8 @@ format as refined by W3C DTF 'Complete Date': yyyy-mm-dd (example:
 ### Namespaces
 
 Uses namespace scop: the SEMIC-EU Core Person Specification (not yet published in
-machine readable form), which is compatible with EuroLMAI.
+machine readable form), which is compatible with \[EN 15981\] (EuroLMAI),
+for which see \[EN 15981\] or \[CWA 16132\].
 
 
 
@@ -875,7 +878,8 @@ passport.
 
 ### Namespaces
 
-Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI).
+Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
+for which see \[EN 15981\] or \[CWA 16132\].
 
 
 
@@ -890,7 +894,8 @@ official documents, such as a passport.
 
 ### Namespaces
 
-Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI).
+Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
+for which see \[EN 15981\] or \[CWA 16132\].
 
 
 
@@ -963,7 +968,8 @@ included on official documents, such as a passport.
 
 ### Namespaces
 
-Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI).
+Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
+for which see \[EN 15981\] or \[CWA 16132\].
 
 
 
@@ -1054,7 +1060,7 @@ Date on which the qualification was awarded.
 ### Namespaces
 
 Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see EN 15981 or [CWA 16132].
+for which see \[EN 15981\] or \[CWA 16132\].
 
 
 
@@ -1089,7 +1095,7 @@ elements describing the organisation(s) offering the course or awarding
 the qualification must be contained in the provider element.
 
 **issuerDescription**: This element is included for compliance with the
-Europass Diploma Supplement Application Profile of the EuroLMAI.
+normative Europass Diploma Supplement Application Profile of \[EN 15981\], EuroLMAI.
 
 
 
@@ -1117,7 +1123,8 @@ Information identifying the holder of the qualification.
 
 ### Namespaces
 
-Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI).
+Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
+for which see \[EN 15981\] or \[CWA 16132\].
 
 Uses namespace scop: the SEMIC-EU Core Person Specification (not yet published in
 machine readable form), which is compatible with EuroLMAI.
@@ -1374,7 +1381,7 @@ A status awarded to or conferred on a learner by an awarding body.
 Uses namespace xcri: .
 
 Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see EN 15981 or [CWA 16132].
+for which see \[EN 15981\] or \[CWA 16132\].
 
 Uses namespace eds: 
 [Europass Diploma Supplement](http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement "http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement")
@@ -1510,7 +1517,7 @@ provider or issuer.
 ### Namespaces
 
 Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see EN 15981 or [CWA 16132].
+for which see \[EN 15981\] or \[CWA 16132\].
 
 
 ### Attributes used in the &lt;result&gt; element
