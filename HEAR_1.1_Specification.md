@@ -379,19 +379,19 @@ top level elements, as noted in this guidance.
 -   additionalInformation
 
 **awardedBy:** A component of qualification (see
-[XCRI-CAP 1.2](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md)).
+[\[XCRI-CAP 1.2\]](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md)).
 
 **qualification:** A component of course (see
-[XCRI-CAP 1.2](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md)).
+[\[XCRI-CAP 1.2\]](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md)).
 
 **course:** A component of provider (see
-[XCRI-CAP 1.2](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md)).
+[\[XCRI-CAP 1.2\]](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md)).
 
 **presentation:** A component of course (see
-[XCRI-CAP 1.2](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md)).
+[\[XCRI-CAP 1.2\]](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md)).
 
 **assessment:** A component of presentation (see
-[XCRI-CAP 1.2](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md)). 
+[\[XCRI-CAP 1.2\]](https://github.com/Cetis/xcri/blob/master/xcri/XCRI_CAP_1.2.md)). 
 
 
 ###  Elements used in the &lt;achievementReport&gt; element
