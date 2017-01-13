@@ -26,6 +26,7 @@ Changes from 1.0c:
     + expanding @resultType attribute explanation
     + adding new @calculationSchemeref attribute
     + adding guidance for @calculationSchemeRef
+-   removing all Namespaces, replacing with notes on origins
 
 ### Patents
 
@@ -289,7 +290,7 @@ organisations themselves.
 8.  A valid HEAR MUST contain exactly one identifier element for the
     following elements: assessment, certificationOfTheHEAR, course,
     presentation, qualification.
-9.  A valid HEAR MUST contain one or more identifier elements for the
+9.  A valid HEAR MUST contain at least one identifier element for the
     following elements: issuer, learner, provider.
 10. A valid exit HEAR &lt;achievementReport @status="1"&gt; MUST contain
     an assessment element for the programme and for each module or
@@ -298,9 +299,9 @@ organisations themselves.
     detailed in the HEAR.
 11. A valid exit HEAR &lt;achievementReport @status="1"&gt; MUST contain exactly one
     assessment element for the presentation of the top-level course instance, 
-    and this assessment element must contain at least one result element.
-12. A certificationOfTheHEAR element MUST contain exactly one
-    issueDateHear element.
+    and this assessment element MUST contain at least one result element.
+12. A certificationOfTheHEAR element MUST contain
+    exactly one issueDateHear element.
 13. A certificationOfTheHEAR element MUST contain exactly one
     fullNameOfficial element.
 14. A certificationOfTheHEAR element MUST contain exactly one
@@ -427,7 +428,7 @@ SHOULD be the institution awarding the qualification.
 Many of the elements in the HEAR use the following common elements. 
 Also see 
 [Definition of Other Elements](#Definition_of_Other_Elements).
-For elements re-used from other namespaces (for example Dublin
+For elements re-used from other origins (for example Dublin
 Core, XCRI) refer to documentation for those specifications.
 
 
@@ -441,11 +442,12 @@ An unambiguous reference to the resource within a given context. See
 \[EN 15982\] and \[ISO 15836\].
 
 
-### Namespaces
+### Origin
 
-Uses namespace dc: .
+From Dublin Core, http://dublincore.org/documents/dcmi-terms/#terms-identifier
 
-Example:
+
+### Example:
 
      http://www.bolton.ac.uk
      23424341414
@@ -461,12 +463,11 @@ Example:
 The name of the resource.
 
 
-### Namespaces
+### Origin
 
-See \[EN 15982\] and \[ISO 15836\].
+Dublin Core: see http://dublincore.org/documents/dcmi-terms/#terms-title
 
-Uses namespace dc: .
-
+See also \[EN 15982\] and \[ISO 15836\].
 
 
 
@@ -484,9 +485,9 @@ Details of the nature and length of qualifications or periods of study
 required before starting the programme.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
+xcri: see ???
 
 Extension of xcri:descriptionDType.
 
@@ -501,9 +502,9 @@ Information about academic (credit-based) and non-academic awards made
 to the learner.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
+xcri: see ???
 
 Extension of xcri:descriptionDType.
 
@@ -520,10 +521,10 @@ recognised activities, and university, professional and departmental
 prizes.
 
 
-### Namespaces
+### Origin
 
-Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see \[EN 15981\] or \[CWA 16132\].
+See European Learner Mobility Achievement Information (EuroLMAI)
+\[EN 15981\] or \[CWA 16132\].
 
 
 ### Elements used in the &lt;additionalInformation&gt; element
@@ -545,12 +546,10 @@ for which see \[EN 15981\] or \[CWA 16132\].
 Describes the aim(s) of the programme.
 
 
-### Namespaces
+### Origin
 
-Uses namespace mlo: \[EN 15982\]: Metadata For Learning Opportunities
-(Advertising)
-
-Represented as mlo:objective.
+See the mlo:objective element from
+\[EN 15982\]: Metadata For Learning Opportunities (Advertising)
 
 
 ### Guidelines
@@ -582,22 +581,15 @@ The details of the way in which the learner's performance in the
 presentation of the course was judged.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
+European Learner Mobility Achievement Information (EuroLMAI),
 for which see \[EN 15981\] or \[CWA 16132\].
-
-
-
-Uses namespace eds: 
-[Europass Diploma Supplement](http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement "http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement")
 
 
 ### Elements used in the &lt;assessment&gt; element
 
--   **identifier** (optional, zero or one), dc:identifier
+-   **identifier** (optional, zero or one), identifier
 -   **title** (optional, zero or one), dc:title
 -   **assessmentType** (required, exactly one)
 -   **assessmentWeight** (optional, zero or one)
@@ -719,14 +711,9 @@ Provides evidence that the HEAR is a genuine document produced by the
 authorised organisation.
 
 
-### Namespaces
-
-Uses namespace dc: 
-
-
 ### Elements used in the &lt;certificationOfTheHEAR&gt; element
 
--   **identifier** (required, exactly one), dc:identifier. Uniquely
+-   **identifier** (required, exactly one), identifier. Uniquely
     identifies this version of the HEAR data set for this learner.
 -   **issueDateHear** (required, exactly one)
 -   **fullNameOfficial** (required, exactly one)
@@ -744,19 +731,14 @@ A course element provides details of a learning opportunity offered by a
 learning provider.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Uses namespace mlo: \[EN 15982\]: Metadata For Learning Opportunities
-(Advertising)
-
-Uses namespace dc: 
+See \[EN 15982\]: Metadata For Learning Opportunities (Advertising)
 
 
 ### Common elements used in the &lt;course&gt; element at all levels
 
--   **identifier** (required, exactly one), dc:identifier
+-   **identifier** (required, exactly one), identifier
 -   **title** (required, exactly one), dc:title. Full official name of
     the programme.
 -   **type** (required, exactly one), dc:type
@@ -819,11 +801,10 @@ format as refined by W3C DTF 'Complete Date': yyyy-mm-dd (example:
 "1985-05-16").
 
 
-### Namespaces
+### Origin
 
-Uses namespace scop: the SEMIC-EU Core Person Specification (not yet published in
-machine readable form), which is compatible with \[EN 15981\] (EuroLMAI),
-for which see \[EN 15981\] or \[CWA 16132\].
+See the SEMIC-EU Core Person Specification https://joinup.ec.europa.eu/asset/core_person/description 
+which is compatible with \[EN 15981\] (EuroLMAI, see also \[CWA 16132\]).
 
 
 
@@ -836,11 +817,9 @@ Gives details if the qualification is a dual award, for example between
 two UK institutions or between a UK and European institution.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Extension of xcri:descriptionDType.
+See the descriptionDType of XCRI.
 
 
 
@@ -889,9 +868,9 @@ Full family or surname, as included on official documents, such as a
 passport.
 
 
-### Namespaces
+### Origin
 
-Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
+European Learner Mobility Achievement Information (EuroLMAI),
 for which see \[EN 15981\] or \[CWA 16132\].
 
 
@@ -905,9 +884,9 @@ The complete name of the learner; components should be those included on
 official documents, such as a passport.
 
 
-### Namespaces
+### Origin
 
-Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
+European Learner Mobility Achievement Information (EuroLMAI),
 for which see \[EN 15981\] or \[CWA 16132\].
 
 
@@ -930,11 +909,9 @@ Information within the Additional Information element not covered
 elsewhere.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Extension of xcri:descriptionDType.
+An extension of the XCRI descriptionDType.
 
 
 
@@ -949,11 +926,9 @@ study, especially leading to any specific qualifications, or levels of
 study.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Extension of xcri:descriptionDType.
+An extension of the XCRI descriptionDType.
 
 
 ### Guidelines
@@ -981,10 +956,10 @@ All given or first names in the order specified by the learner, as
 included on official documents, such as a passport.
 
 
-### Namespaces
+### Origin
 
-Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see \[EN 15981\] or \[CWA 16132\].
+See European Learner Mobility Achievement Information (EuroLMAI)
+\[EN 15981\] or \[CWA 16132\].
 
 
 
@@ -1011,11 +986,9 @@ identifying number for students registered at a UK university. It is
 defined by HESA, the UK's Higher Education Statistics Agency."
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Extension of xcri:descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 
@@ -1028,11 +1001,9 @@ Further information sources and references where more details on the
 qualification could be sought.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Extension of xcri:descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 
@@ -1056,11 +1027,9 @@ course element.
 Date and time of the production of this HEAR.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-xcri:dateOrDateTimeDType
+See \[XCRI-CAP 1.2\] xcri:dateOrDateTimeDType.
 
 
 
@@ -1072,10 +1041,10 @@ xcri:dateOrDateTimeDType
 Date on which the qualification was awarded.
 
 
-### Namespaces
+### Origin
 
-Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see \[EN 15981\] or \[CWA 16132\].
+See European Learner Mobility Achievement Information (EuroLMAI)
+\[EN 15981\] or \[CWA 16132\].
 
 
 
@@ -1087,14 +1056,9 @@ for which see \[EN 15981\] or \[CWA 16132\].
 The organisation that is responsible for producing the HEAR.
 
 
-### Namespaces
-
-Uses namespace dc: 
-
-
 ### Elements used in the &lt;issuer&gt; element
 
--   **identifier**, dc:identifier (required, one or more)
+-   **identifier**, identifier (required, one or more)
 -   **title**, dc:title (required, one or more)
 -   **issuerDescription**, (required, exactly one)
 
@@ -1124,11 +1088,6 @@ normative Europass Diploma Supplement Application Profile of \[EN 15981\], EuroL
 A short description of the issuer.
 
 
-### Namespaces
-
-Uses namespace dc: 
-
-
 
 ## the &lt;learner&gt; element
 
@@ -1138,26 +1097,20 @@ Uses namespace dc:
 Information identifying the holder of the qualification.
 
 
-### Namespaces
+### Origin
 
-Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see \[EN 15981\] or \[CWA 16132\].
-
-Uses namespace scop: the SEMIC-EU Core Person Specification (not yet published in
-machine readable form), which is compatible with EuroLMAI.
-
-Uses namespace dc: 
+See European Learner Mobility Achievement Information (EuroLMAI) 
+\[EN 15981\] or \[CWA 16132\].
 
 
 ### Elements used in the &lt;learner&gt; element
 
--   **identifier** (required, one or more), dc:identifier. Unique
+-   **identifier** (required, one or more), identifier. Unique
     identifier for the learner. Where the HESA Unique Student
     Identifier (HUSID) is known, for example stored in the Student
     Record System, this value MUST be the learner's HUSID. In other
     cases a different authoritative identifier MUST be used. For
     identifiers other than the HUSID, ULN or SCN implementers MUST
-    either extend the identifier element to include another namespace or
     indicate the provenance of the identifier in the comment attribute.
 -   **identifierDescription** (optional, zero, one or more)
 -   **familyName** (required, exactly one)
@@ -1172,8 +1125,7 @@ Uses namespace dc:
 
 **identifier**: Alternatives recommended in this specification include
 the Unique Learner Number (ULN) and the Scottish Candidate Number (SCN).
-Namespace refinements for these identifiers are included in the HEAR XML
-schema. An internal identifier from an issuer, provider or awarding body
+An internal identifier from an issuer, provider or awarding body
 can also be included.
 
 **dateOfBirth**: Note that this specification does not prescribe the
@@ -1193,11 +1145,9 @@ required.
 Describes the overall learning outcome(s) of the programme.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Extension of xcri:descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 
@@ -1223,11 +1173,9 @@ Details of the regulations covering the minimum standards required to
 secure the qualification; therefore applies to the Programme only.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Extension of xcri:descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 
@@ -1239,19 +1187,14 @@ Extension of xcri:descriptionDType.
 Details of the instance or version of the course enrolled on.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Uses namespace mlo: \[EN 15982\]: Metadata For Learning Opportunities
-(Advertising)
-
-Uses namespace dc: 
+See \[EN 15982\]: Metadata For Learning Opportunities (Advertising)
 
 
 ### Common elements used in the &lt;presentation&gt; element at all levels
 
--   **identifier** (required, exactly one), dc:identifier. Where
+-   **identifier** (required, exactly one), identifier. Where
     presentation does not have its own identifier, producers SHOULD use
     and repeat the host course identifier
 -   **assessment** (optional, zero, one or many). In an exit HEAR this
@@ -1319,11 +1262,9 @@ Information about university, professional and departmental prizes
 awarded to the learner.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Extension of xcri:descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 
@@ -1336,11 +1277,9 @@ Details of any rights to practise or other professional standing
 accorded to holders of the award.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Extension of xcri:descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 ### Guidelines
@@ -1364,14 +1303,14 @@ An organisation that offers one or more courses.
 identifier MUST match the awardedBy identifier.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: 
+\[XCRI-CAP 1.2\]
 
 
 ### Elements used in the &lt;provider&gt; element
 
--   **identifier** (required, at least one), dc:identifier. Unique
+-   **identifier** (required, at least one), identifier. Unique
     identifier for the provider.
 -   **title** (required, at least one), dc:title. Full official name of
     the provider.
@@ -1399,22 +1338,15 @@ Describes the legal status of the provider, for example as either a
 A status awarded to or conferred on a learner by an awarding body.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see \[EN 15981\] or \[CWA 16132\].
-
-Uses namespace eds: 
-[Europass Diploma Supplement](http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement "http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement")
-
-Uses namespace dc: 
+See European Learner Mobility Achievement Information (EuroLMAI)
+\[EN 15981\] or \[CWA 16132\].
 
 
 ### Elements used in the &lt;qualification&gt; element
 
--   **identifier** (required, exactly one), dc:identifier. Unique
+-   **identifier** (required, exactly one), identifier. Unique
     identifier for the qualification.
 -   **title** (required, exactly one), dc:title. Full official name of
     the award.
@@ -1441,12 +1373,6 @@ Nationally accepted title conferred by the award, for example *Bachelor
 of Science (Honours)*.
 
 
-### Namespaces
-
-Uses namespace eds: 
-[Europass Diploma Supplement](http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement "http://europass.cedefop.europa.eu/documents/european-skills-passport/diploma-supplement")
-
-
 
 ## the &lt;recognisedActivities&gt; element
 
@@ -1457,11 +1383,9 @@ Information about other recognised non-credit-bearing activities
 undertaken by the learner.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Extension of xcri:descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 
@@ -1473,9 +1397,9 @@ Extension of xcri:descriptionDType.
 Container for standard, repeated or generic text used in the HEAR.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
+\[XCRI-CAP 1.2\]
 
 
 ### Elements used in the &lt;referenceData&gt; element
@@ -1498,11 +1422,9 @@ learning outcomes, so that these pieces of text can be referenced rather
 than repeated.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Extension of xcri:descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 
@@ -1522,11 +1444,9 @@ The recommended text is: "The power to award degrees is regulated by law
 in the UK."
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Extension of xcri:descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 
@@ -1539,10 +1459,10 @@ The actual outcome of an assessment of a presentation for a learner as stated by
 provider or issuer.
 
 
-### Namespaces
+### Origin
 
-Uses namespace elm: European Learner Mobility Achievement Information (EuroLMAI),
-for which see \[EN 15981\] or \[CWA 16132\].
+See European Learner Mobility Achievement Information (EuroLMAI)
+\[EN 15981\] or \[CWA 16132\].
 
 
 ### Attributes used in the &lt;result&gt; element
@@ -1577,11 +1497,9 @@ for which see \[EN 15981\] or \[CWA 16132\].
 A reference to an image of a signature of the responsible official.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Represented as xcri:imageDType.
+See \[XCRI-CAP 1.2\] imageDType.
 
 
 ### Guidelines
@@ -1608,11 +1526,9 @@ Any particular features that help define the programme that are not
 covered elsewhere.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Extension of xcri:descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 
@@ -1624,9 +1540,9 @@ Extension of xcri:descriptionDType.
 Main field(s) of study for the qualification.
 
 
-### Namespaces
+### Origin
 
-Uses namespace dc: .
+Dublin Core http://dublincore.org/documents/dcmi-terms/#terms-subject
 
 
 ### Guidelines
@@ -1651,11 +1567,9 @@ Specifies if the qualification is a terminal (end) award or part of a
 hierarchy of awards.
 
 
-### Namespaces
+### Origin
 
-Uses namespace xcri: .
-
-Extension of xcri:descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 
@@ -1670,9 +1584,9 @@ module-level component or a grouping component such as semester,
 programme year, level or subject of a programme.
 
 
-### Namespaces
+### Origin
 
-Uses namespace dc: .
+Dublin Core: http://dublincore.org/documents/dcmi-terms/#terms-type
 
 
 
