@@ -223,7 +223,9 @@ included in the Guidance sections of this specification.
 
 
 
-### Guidelines *This section is not normative*
+### Guidelines
+
+*This section is not normative*
 
 In the Contextual Information of the HEAR,
 institutions are advised to include the following statements:
@@ -233,7 +235,7 @@ the European Commission, Council of Europe and UNESCO/CEPES for the
 Diploma Supplement.*
 
 *The purpose of the Supplement is to provide sufficient recognition of
-qualifications (diplomas, degrees, certificates etc). It is designed to
+qualifications (diplomas, degrees, certificates, etc.). It is designed to
 provide a description of the nature, level, context and status of the
 studies that were pursued and successfully completed by the individual
 named on the original qualifications to which this Supplement is
@@ -401,7 +403,9 @@ top level elements, as noted in this guidance.
 -   certificationOfTheHEAR (required, exactly one)
 
 
-### Guidelines *This section is not normative*
+### Guidelines 
+
+*This section is not normative*
 
 If there are two or more provider elements, the first provider element
 SHOULD be the institution awarding the qualification.
@@ -549,7 +553,9 @@ Uses namespace mlo: \[EN 15982\]: Metadata For Learning Opportunities
 Represented as mlo:objective.
 
 
-### Guidelines *This section is not normative*
+### Guidelines
+
+*This section is not normative*
 
     
     ...
@@ -600,7 +606,9 @@ Uses namespace eds:
 -   **gradingScheme** (required, exactly one)
 
 
-### Guidelines *This section is not normative*
+### Guidelines 
+
+*This section is not normative*
 
 **result:** Required in an exit HEAR, at least one per assessment.
 
@@ -636,7 +644,9 @@ Uses namespace eds:
 Description of the style of the assessment.
 
 
-### Guidelines *This section is not normative*
+### Guidelines
+
+*This section is not normative*
 
 **assessmentType:** It is recommended that producers use an encoding
 scheme or controlled vocabulary for this item.
@@ -770,7 +780,9 @@ be supplied.
 -   **isPartOf** (required, exactly one)
 
 
-### Guidelines *This section is not normative*
+### Guidelines
+
+*This section is not normative*
 
 Programme and course component linkage example, in relation to
 constraint 'Course instances at levels lower than programme level should
@@ -848,7 +860,9 @@ Producers MAY include a machine-readable attribute 'interval' that
 follows the ISO 8601 standard.
 
 
-### Guidelines *This section is not normative*
+### Guidelines
+
+*This section is not normative*
 
 
 ### Example
@@ -942,7 +956,9 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-### Guidelines *This section is not normative*
+### Guidelines
+
+*This section is not normative*
 
 **furtherStudy:** Include the grades or standards normally necessary to
 allow progression within the EHEA.
@@ -1083,7 +1099,9 @@ Uses namespace dc:
 -   **issuerDescription**, (required, exactly one)
 
 
-### Guidelines *This section is not normative*
+### Guidelines
+
+*This section is not normative*
 
 **identifier**: This element identifiers the issuing organisation, which
 may be a different organisation from the provider or the awarding body,
@@ -1148,7 +1166,9 @@ Uses namespace dc:
 -   **dateOfBirth** (required, exactly one)
 
 
-### Guidelines *This section is not normative*
+### Guidelines
+
+*This section is not normative*
 
 **identifier**: Alternatives recommended in this specification include
 the Unique Learner Number (ULN) and the Scottish Candidate Number (SCN).
@@ -1254,7 +1274,9 @@ Uses namespace dc:
     xcri:languageOfAssessment (defined in xcri)
 
 
-### Guidelines *This section is not normative*
+### Guidelines
+
+*This section is not normative*
 
 There are no additional elements only used in the &lt;presentation&gt;
 element at other levels.
@@ -1321,7 +1343,9 @@ Uses namespace xcri: .
 Extension of xcri:descriptionDType.
 
 
-### Guidelines *This section is not normative*
+### Guidelines
+
+*This section is not normative*
 
 The institution may use a generic statement from a professional body or
 one of its own devising (see 
@@ -1490,7 +1514,9 @@ Extension of xcri:descriptionDType.
 Describes the regulations concerning degree-awarding powers in the UK.
 
 
-### Guidelines *This section is not normative*
+### Guidelines
+
+*This section is not normative*
 
 The recommended text is: "The power to award degrees is regulated by law
 in the UK."
@@ -1528,7 +1554,8 @@ for which see \[EN 15981\] or \[CWA 16132\].
     conforming to the URL scheme as specified by IETF RFC 3986.
 
 
-### Guidelines *This section is not normative*
+### Guidelines
+*This section is not normative*
 
 -   **result**: Where any zeros or mark reductions have occurred, it is
     recommended that producers record them here.
@@ -1557,7 +1584,9 @@ Uses namespace xcri: .
 Represented as xcri:imageDType.
 
 
-### Guidelines *This section is not normative*
+### Guidelines
+
+*This section is not normative*
 
 Producers should implement specific security measures to protect the
 image. This element is concerned with the graphical image of the
@@ -1600,7 +1629,9 @@ Main field(s) of study for the qualification.
 Uses namespace dc: .
 
 
-### Guidelines *This section is not normative*
+### Guidelines
+
+*This section is not normative*
 
 **subject:** Producers should put each main field of study in a separate
 element. On output, the elements should be concatenated to form one
