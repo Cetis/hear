@@ -444,7 +444,7 @@ An unambiguous reference to the resource within a given context. See
 
 ### Origin
 
-From Dublin Core, http://dublincore.org/documents/dcmi-terms/#terms-identifier
+Dublin Core: http://dublincore.org/documents/dcmi-terms/#terms-identifier
 
 
 ### Example:
@@ -465,7 +465,7 @@ The name of the resource.
 
 ### Origin
 
-Dublin Core: see http://dublincore.org/documents/dcmi-terms/#terms-title
+Dublin Core: http://dublincore.org/documents/dcmi-terms/#terms-title
 
 See also \[EN 15982\] and \[ISO 15836\].
 
@@ -487,9 +487,7 @@ required before starting the programme.
 
 ### Origin
 
-xcri: see ???
-
-Extension of xcri:descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 
@@ -504,9 +502,7 @@ to the learner.
 
 ### Origin
 
-xcri: see ???
-
-Extension of xcri:descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 
@@ -523,7 +519,7 @@ prizes.
 
 ### Origin
 
-See European Learner Mobility Achievement Information (EuroLMAI)
+European Learner Mobility Achievement Information (EuroLMAI)
 \[EN 15981\] or \[CWA 16132\].
 
 
@@ -583,8 +579,8 @@ presentation of the course was judged.
 
 ### Origin
 
-European Learner Mobility Achievement Information (EuroLMAI),
-for which see \[EN 15981\] or \[CWA 16132\].
+European Learner Mobility Achievement Information (EuroLMAI)
+\[EN 15981\] or \[CWA 16132\].
 
 
 ### Elements used in the &lt;assessment&gt; element
@@ -733,7 +729,7 @@ learning provider.
 
 ### Origin
 
-See \[EN 15982\]: Metadata For Learning Opportunities (Advertising)
+\[EN 15982\]: Metadata For Learning Opportunities (Advertising)
 
 
 ### Common elements used in the &lt;course&gt; element at all levels
@@ -886,8 +882,8 @@ official documents, such as a passport.
 
 ### Origin
 
-European Learner Mobility Achievement Information (EuroLMAI),
-for which see \[EN 15981\] or \[CWA 16132\].
+European Learner Mobility Achievement Information (EuroLMAI)
+\[EN 15981\] or \[CWA 16132\].
 
 
 
@@ -911,7 +907,7 @@ elsewhere.
 
 ### Origin
 
-An extension of the XCRI descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 
@@ -928,7 +924,7 @@ study.
 
 ### Origin
 
-An extension of the XCRI descriptionDType.
+An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 
 ### Guidelines
@@ -958,7 +954,7 @@ included on official documents, such as a passport.
 
 ### Origin
 
-See European Learner Mobility Achievement Information (EuroLMAI)
+European Learner Mobility Achievement Information (EuroLMAI)
 \[EN 15981\] or \[CWA 16132\].
 
 
@@ -1043,7 +1039,7 @@ Date on which the qualification was awarded.
 
 ### Origin
 
-See European Learner Mobility Achievement Information (EuroLMAI)
+European Learner Mobility Achievement Information (EuroLMAI)
 \[EN 15981\] or \[CWA 16132\].
 
 
@@ -1099,7 +1095,7 @@ Information identifying the holder of the qualification.
 
 ### Origin
 
-See European Learner Mobility Achievement Information (EuroLMAI) 
+European Learner Mobility Achievement Information (EuroLMAI) 
 \[EN 15981\] or \[CWA 16132\].
 
 
@@ -1189,7 +1185,7 @@ Details of the instance or version of the course enrolled on.
 
 ### Origin
 
-See \[EN 15982\]: Metadata For Learning Opportunities (Advertising)
+\[EN 15982\]: Metadata For Learning Opportunities (Advertising)
 
 
 ### Common elements used in the &lt;presentation&gt; element at all levels
@@ -1340,7 +1336,7 @@ A status awarded to or conferred on a learner by an awarding body.
 
 ### Origin
 
-See European Learner Mobility Achievement Information (EuroLMAI)
+European Learner Mobility Achievement Information (EuroLMAI)
 \[EN 15981\] or \[CWA 16132\].
 
 
@@ -1461,7 +1457,7 @@ provider or issuer.
 
 ### Origin
 
-See European Learner Mobility Achievement Information (EuroLMAI)
+European Learner Mobility Achievement Information (EuroLMAI)
 \[EN 15981\] or \[CWA 16132\].
 
 
@@ -1542,7 +1538,7 @@ Main field(s) of study for the qualification.
 
 ### Origin
 
-Dublin Core http://dublincore.org/documents/dcmi-terms/#terms-subject
+Dublin Core: http://dublincore.org/documents/dcmi-terms/#terms-subject
 
 
 ### Guidelines
