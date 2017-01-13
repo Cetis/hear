@@ -122,8 +122,8 @@ See ftp://ftp.cen.eu/CEN/Sectors/List/ICT/CWAs/CWA16132_2010_EuroLMI.pdf
 \[EN 15981\] European Learner Mobility — Achievement information (EuroLMAI).
 Available from BSI and other CEN Member Bodies.
 
-\[HEAR Guidance Document\].
-See ???
+\[HEAR Reference Pack\].
+See http://www.hear.ac.uk/guidance/HEAR-reference-pack
 
 # Conformance
 
@@ -183,11 +183,11 @@ This specification covers the structure of the XML representation of the
 HEAR data; it does not define the structure of the HEAR document *per se*.
 The following information is provided to give context to the
 specification of the data elements. Readers are asked to refer to the
-[HEAR Reference Pack](http://www.hear.ac.uk/sites/default/files/HEAR%20Reference%20Pack%20Feb%202014_0.pdf)
+[\[HEAR Reference Pack\]](http://www.hear.ac.uk/guidance/HEAR-reference-pack)
 for more details.
 
 A HEAR must adhere to the prescribed template described in the
-[HEAR Reference Pack](http://www.hear.ac.uk/sites/default/files/HEAR%20Reference%20Pack%20Feb%202014_0.pdf) The guidance in the Reference Pack defines the sections of the HEAR and requires that
+[\[HEAR Reference Pack\]](http://www.hear.ac.uk/guidance/HEAR-reference-pack) The guidance in the Reference Pack defines the sections of the HEAR and requires that
 sections are numbered and follow the sequence and explanatory guidance
 given in the document.
 
@@ -205,7 +205,7 @@ The structure of the template for a HEAR is as follows:
 
 On output for printing or for viewing electronically a HEAR should
 contain section numbering and standard statements as described in the
-[HEAR Reference Pack](http://www.hear.ac.uk/sites/default/files/HEAR%20Reference%20Pack%20Feb%202014_0.pdf).
+[\[HEAR Reference Pack\]](http://www.hear.ac.uk/guidance/HEAR-reference-pack).
 
 
 
@@ -215,7 +215,7 @@ contain section numbering and standard statements as described in the
 *This section is not normative*
 
 The 
-[HEAR Reference Pack](http://www.hear.ac.uk/sites/default/files/HEAR%20Reference%20Pack%20Feb%202014_0.pdf)
+[\[HEAR Reference Pack\]](http://www.hear.ac.uk/guidance/HEAR-reference-pack)
 gives details of statements that should be included in the HEAR
 at specified points, for example a standard statement at the start of
 the HEAR should be included in order to meet the requirements of the
@@ -285,7 +285,7 @@ organisations themselves.
 5.  A valid HEAR MUST contain exactly one top level course element.
 6.  A valid HEAR MUST contain exactly one additionalInformation element.
     Guidance on its contents is given in the 
-    [HEAR Reference Pack](http://www.hear.ac.uk/sites/default/files/HEAR%20Reference%20Pack%20Feb%202014_0.pdf).
+    [\[HEAR Reference Pack\]](http://www.hear.ac.uk/guidance/HEAR-reference-pack).
 7.  A valid HEAR MUST contain exactly one certificationOfTheHEAR element.
 8.  A valid HEAR MUST contain exactly one identifier element for the
     following elements: assessment, certificationOfTheHEAR, course,
@@ -1235,10 +1235,10 @@ hyperlinks and the associated content, for example:
 available in the University's on-line Prospectus at:
 www.easthampton.ac.uk/admissions/ugprospectus/06" 
 See 
-[HEAR Reference Pack](http://www.hear.ac.uk/sites/default/files/HEAR%20Reference%20Pack%20Feb%202014_0.pdf), section 3.3.
+[\[HEAR Reference Pack\]](http://www.hear.ac.uk/guidance/HEAR-reference-pack), section 3.3.
 
 **minimumStandards**: See 
-[HEAR Reference Pack](http://www.hear.ac.uk/sites/default/files/HEAR%20Reference%20Pack%20Feb%202014_0.pdf), section 4.2.
+[\[HEAR Reference Pack\]](http://www.hear.ac.uk/guidance/HEAR-reference-pack), section 4.2.
 
 **studyMode**: This specification does not prescribe a vocabulary
 for studyMode.
@@ -1288,7 +1288,7 @@ An extension of \[XCRI-CAP 1.2\] descriptionDType.
 
 The institution may use a generic statement from a professional body or
 one of its own devising (see 
-[HEAR Reference Pack](http://www.hear.ac.uk/sites/default/files/HEAR%20Reference%20Pack%20Feb%202014_0.pdf).
+[\[HEAR Reference Pack\]](http://www.hear.ac.uk/guidance/HEAR-reference-pack).
 
 
 
@@ -1415,7 +1415,7 @@ Container for standard, repeated or generic text used in the HEAR.
 
 Holds standard, repeated or generic text ('boilerplate' text). This text
 will typically be recommended text from the 
-[HEAR Reference Pack](http://www.hear.ac.uk/sites/default/files/HEAR%20Reference%20Pack%20Feb%202014_0.pdf). 
+[\[HEAR Reference Pack\]](http://www.hear.ac.uk/guidance/HEAR-reference-pack). 
 It can also be used for generic assessment grading schemes that
 might be repeated for a large number of modules, or for standardised
 learning outcomes, so that these pieces of text can be referenced rather
