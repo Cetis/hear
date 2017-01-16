@@ -53,7 +53,7 @@ Further information about the HEAR:
 
 -   [HEAR Technical Specification v1.0: Requirements and design goals](HEAR_1.0_Requirements.md "HEAR 1.0 Requirements") First Release
 -   [HEAR Technical Specification v1.0c: Specification](HEAR_1.0c_Specification.md "HEAR 1.0c Specification")
--   [W3C XML Schema and example instance document](HEAR_1.0c_Specification.md#XML_Schema_and_Instance)
+-   [Version 1.0 W3C XML Schema](schemas/HEAR_1.0.xsd)
 
 
 
