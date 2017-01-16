@@ -99,11 +99,11 @@ Provisional update by Simon Grant, 2017-01-13, to align with revised HEAR 1.1 sp
                             <p>The following degree classification mark and GPA bands
                                 apply to first degrees awarded by the University:</p>
                             <ul>
-                                <li>First Class Honours | 70% - 100% | GPA &lt; 3.75</li>
-                                <li>Upper Second Class Honours | 60% – 69% | 3.25 &gt; GPA &lt; 3.75</li>
-                                <li>Lower Second Class Honours | 50% – 59% | 2.75 &gt; GPA &lt; 3.25</li>
-                                <li>Third Class Honours | 40% – 49% | 2.25 &gt; GPA &lt; 2.75</li>
-                                <li>Pass 35% - 39% | 1.75 &gt; GPA &lt; 2.25</li>
+                                <li>First Class Honours | 70% - 100% | GPA ≥ 3.75</li>
+                                <li>Upper Second Class Honours | 60% – 69% | 3.25 ≤ GPA &lt; 3.75</li>
+                                <li>Lower Second Class Honours | 50% – 59% | 2.75 ≤; GPA &lt; 3.25</li>
+                                <li>Third Class Honours | 40% – 49% | 2.25 ≤ GPA &lt; 2.75</li>
+                                <li>Pass 35% - 39% | 1.75 ≤ GPA &lt; 2.25</li>
                             </ul>
                             <h1>Overall degree classification calculation</h1>
                             <p>Subject to qualifying conditions, the overall degree classification is determined by the results in the final two years, and is the better of the following two calculations:</p>
