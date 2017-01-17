@@ -1,0 +1,12 @@
+# Site settings
+title: Cetis LLP Standards Support
+email: david@cetis.org.uk
+description: > # this means to ignore newlines until "baseurl:"
+  This site is generated via https://github.com/Cetis/hear.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://cetis.github.io/hear" # the base hostname & protocol for your site
+twitter_username: cetisllp
+github_username:  ds10
+
+# Build settings
+markdown: kramdown
