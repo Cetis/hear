@@ -9,6 +9,7 @@ Provisional update by Simon Grant, 2017-01-13, to align with revised HEAR 1.1 sp
 * removed namespaces (but not sure what to do about xsi: Alan, please remove them accordingly)
 * added extra material into the assessment elements
 * added 6 years to all dates to make it appear less outdated
+Revised by Alan Paull, 2017-01-16, in conjunction with simplifying the XSD
 -->
 
 <achievementReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
