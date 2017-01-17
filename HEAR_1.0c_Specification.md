@@ -1674,6 +1674,4 @@ A sample XML instance file is available at
 .
 
 XCRI-CAP 1.2 schema and supporting schemas are available from the XCRI
-
 [website](http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd "http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd"){
-
