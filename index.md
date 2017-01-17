@@ -47,7 +47,9 @@ Further information about the HEAR:
 
 ### Current version
 -   [HEAR Technical Specification v1.1: Specification](HEAR_1.1_Specification.md "HEAR 1.0c Specification")
-  
+-   [HEAR 1.1 XML Schema](schemas/HEAR_1.1.xsd)
+-   [Example XML instance file](schemas/HEAR_test_2017-01-16.xml)
+
 
 ### Previous version
 
