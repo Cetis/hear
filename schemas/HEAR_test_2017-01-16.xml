@@ -6,7 +6,7 @@ This sample does not include all the required boilerplate text.
 Further business rules may be encapsulated in a schematron schema at a later date.
 
 Provisional update by Simon Grant, 2017-01-13, to align with revised HEAR 1.1 spec.
-* removed namespaces (but not sure what to do about xsi: Alan, please remove them accordingly)
+* removed namespaces
 * added extra material into the assessment elements
 * added 6 years to all dates to make it appear less outdated
 Revised by Alan Paull, 2017-01-16, in conjunction with simplifying the XSD
