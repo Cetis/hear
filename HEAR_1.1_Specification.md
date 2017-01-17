@@ -1593,7 +1593,7 @@ Dublin Core: http://dublincore.org/documents/dcmi-terms/#terms-type
 
 A W3C XML Schema is available at https://github.com/Cetis/hear/blob/master/schemas/HEAR_1.1.xsd .
 
-A sample XML instance file is available at **???**
+A sample XML instance file is available [alongside the schema](schemas/HEAR_test_2017-01-16.xml)
 
 XCRI-CAP 1.2 schema and supporting schemas are available from the
 [XCRI website](http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd "http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd")
