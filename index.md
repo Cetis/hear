@@ -46,17 +46,15 @@ Further information about the HEAR:
 ##  Specification Materials
 
 ### Current version
+
 -   [HEAR Technical Specification v1.1: Specification](HEAR_1.1_Specification.html "HEAR 1.0c Specification")
-  
+-   [HEAR 1.1 XML Schema](schemas/HEAR_1.1.xsd)
+-   [Example XML instance file](schemas/HEAR_test_2017-01-16.xml)
+
 
 ### Previous version
 
 -   [HEAR Technical Specification v1.0: Requirements and design goals](HEAR_1.0_Requirements.html "HEAR 1.0 Requirements") First Release
 -   [HEAR Technical Specification v1.0c: Specification](HEAR_1.0c_Specification.html "HEAR 1.0c Specification")
 -   [Version 1.0 W3C XML Schema](schemas/HEAR_1.0.xsd)
-
-
-
-
-
 

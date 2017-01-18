@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://hear.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xcri="http://xcri.org/profiles/1.2/catalog" xmlns:mlo="http://purl.org/net/mlo" targetNamespace="http://hear.org/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+		<xs:annotation><xs:documentation>
+			HEAR namespace http://hear.org/ does not exist yet.
+			dc and dcterms are Dublin Core
+			x is XHTML (using XHTML1 strict)
+			xs is the standard W3C Schema namespace
+			xcri is XCRI-CAP 1.2
+			mlo is Metadata for Learning Opportunities, the European standard
+			credit is Educational Credit, a proto-standard that forms an annexe to MLO
+		</xs:documentation></xs:annotation>
+
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2001/xml.xsd"/>
+	<xs:import namespace="http://www.w3.org/1999/xhtml" schemaLocation="http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd">
+		<xs:annotation><xs:documentation>Permits use of XHTML in descriptive elements</xs:documentation></xs:annotation>
+	</xs:import>
+	<xs:import namespace="http://xcri.org/profiles/1.2/catalog" schemaLocation="http://www.xcri.co.uk/bindings/xcri_cap_1_2.xsd">
+		<xs:annotation><xs:documentation>XCRI-CAP 1.2 main schema</xs:documentation></xs:annotation>
+	</xs:import>
+	<xs:import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="http://dublincore.org/schemas/xmls/qdc/2006/01/06/dc.xsd"/>
+	<xs:import schemaLocation="http://www.xcri.co.uk/bindings/mlo_xcri_profile.xsd" namespace="http://purl.org/net/mlo">
+		<xs:annotation><xs:documentation>This is the profile of MLO used in XCRI; this schema redefines some of the base types in MLO adding additional attributes and/or specifying child elements defined by other schemas</xs:documentation></xs:annotation>
+	</xs:import>
+	
+	<xs:annotation>
+		<xs:documentation xml:lang="en">
+		HEAR XML schema version 1.0 Release: 2011-04-21
+		Alan Paull, Scott Wilson, HEAR Technical Specification Group
+		Full documentation is available from http://www.xcri.org/wiki/index.php/HEAR_1.0b_Specification
+		
+		*** 19 January 2012 ***
+		Minor revision of import elements as XCRI schema locations have changed.
+		</xs:documentation>
+	</xs:annotation>
+	
+<!-- Data type definitions -->
+	
+	<xs:complexType name="achievementReportDType">
+		<xs:annotation><xs:documentation>Root element</xs:documentation></xs:annotation>
+		<xs:sequence>
+			<xs:element name="referenceData" type="referenceDataDType" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="issuer" type="issuerDType" minOccurs="1"/>
+			<xs:element name="learner" type="learnerDType" minOccurs="1"/>
+			<xs:element ref="provider" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="additionalInformation" type="additionalInformationDType" minOccurs="1"/>
+			<xs:element name="certificationOfTheHEAR" type="certificationDType" minOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="status" type="statusDType"/>
+		<xs:attribute name="id" type="xs:string"/>
+	</xs:complexType>
+	<xs:complexType name="additionalInformationDType">
+		<xs:sequence>
+			<xs:element name="prizes" type="hearDescriptionDType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="additionalAwards" type="hearDescriptionDType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="recognisedActivities" type="hearDescriptionDType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="informationSources" type="hearDescriptionDType" minOccurs="0" maxOccurs="unbounded"/>			
+			<xs:element name="ePortfolioUrl" type="xs:anyURI" minOccurs="0"/>
+			<xs:element name="furtherInformation" type="hearDescriptionDType" minOccurs="0" maxOccurs="unbounded"/>		
+		</xs:sequence>
+		<xs:attribute name="idRef" type="idRefDType"/>
+	</xs:complexType>
+	<xs:complexType name="assessmentDType">
+		<xs:sequence>
+			<xs:element ref="dc:identifier" minOccurs="1"/>
+			<xs:element name="assessmentType" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="assessmentWeight" type="xs:string" minOccurs="0"/>
+			<xs:element name="attempts" type="xs:integer" minOccurs="0"/>
+			<xs:element name="result" type="resultDType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="gradingScheme" type="hearDescriptionDType" minOccurs="1" maxOccurs="1"/>
+		</xs:sequence>
+		<xs:attribute name="idRef" type="idRefDType"/>
+	</xs:complexType>
+	<xs:complexType name="awardedByDType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="idRef" type="idRefDType"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="certificationDType">
+		<xs:sequence>
+			<xs:element ref="dc:identifier" minOccurs="1"/>
+			<xs:element name="issueDateHear" type="xcri:dateOrDateTimeDType" minOccurs="1"/>
+			<xs:element name="fullNameOfficial" type="xs:string" minOccurs="1"/>
+			<xs:element name="capacity" type="xs:string" minOccurs="1"/>
+			<xs:element name="signature" type="xcri:imageDType" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="idRef" type="idRefDType"/>
+	</xs:complexType>
+	<xs:complexType name="durationDType">
+		<xs:complexContent>
+			<xs:extension base="dc:SimpleLiteral">
+				<xs:attribute name="interval" type="intervalDType"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="hearDescriptionDType" mixed="true">
+		<xs:annotation>
+			<xs:documentation>Description extension for HEAR descriptive elements. Adds an idRef attribute for linking to reference data.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent mixed="true">
+			<xs:extension base="xcri:descriptionDType">
+				<xs:attribute name="idRef" type="idRefDType"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:simpleType name="idRefDType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[^0-9].*"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="intervalDType">
+		<xs:annotation><xs:documentation>Pattern for Duration in ISO8601</xs:documentation></xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="P[0-9][Y/M/D/W]"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="issuerDType">
+		<xs:sequence>
+			<xs:element ref="dc:identifier" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element ref="dc:title" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="learnerDType">
+		<xs:sequence>
+			<xs:element ref="dc:identifier" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="identifierDescription" type="hearDescriptionDType" minOccurs="0" maxOccurs="unbounded"/>
+			<xs:element name="familyName" type="xs:string" minOccurs="1"/>
+			<xs:element name="givenNames" type="xs:string" minOccurs="1"/>
+			<xs:element name="fullName" type="xs:string" minOccurs="1"/>
+			<xs:element name="dateOfBirth" type="xs:date"/>
+		</xs:sequence>
+		<xs:attribute name="idRef" type="idRefDType"/>
+	</xs:complexType>
+	<xs:complexType name="levelDType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="idType" type="xs:string"/>
+				<xs:attribute name="idRef" type="idRefDType"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="referenceDataDType">
+		<xs:sequence>
+			<xs:element name="referenceDataItem" type="referenceDataItemDType" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="referenceDataItemDType">
+		<xs:complexContent>
+			<xs:extension base="xcri:descriptionDType">
+				<xs:attribute name="id" type="xs:ID"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="resultDType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="resultType" type="xs:string" use="optional"/>
+				<xs:attribute name="idRef" type="idRefDType"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:simpleType name="statusDType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="1">
+				<xs:annotation>
+					<xs:documentation>1 = Exit</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="2">
+				<xs:annotation>
+					<xs:documentation>2 = Formative</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+			<xs:enumeration value="3">
+				<xs:annotation>
+					<xs:documentation>3 = Deleted</xs:documentation>
+				</xs:annotation>
+			</xs:enumeration>
+		</xs:restriction>
+	</xs:simpleType>
+	
+<!-- element declarations -->
+
+
+	<xs:element name="course">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="xcri:courseDType"> <!-- Uses qualification minOccurs="1" at Programme level, dc:identifier minOccurs="1", dc:title minOccurs="1", dc:type minOccurs="1", mlo:credit minOccurs="0" maxOccurs="1", mlo:objective minOccurs="0" maxOccurs="1".-->
+					<xs:sequence>
+						<xs:element name="learningOutcome" type="hearDescriptionDType" minOccurs="0" maxOccurs="1"/>
+						<xs:element name="specialFeature" type="hearDescriptionDType" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element name="isPartOf" type="xs:string" minOccurs="0"/>
+						<xs:element ref="qualification" minOccurs="0" maxOccurs="1"/>
+						<xs:element ref="presentation" minOccurs="1"/>
+					</xs:sequence>
+					<xs:attribute name="idRef" type="idRefDType"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="presentation">
+		<xs:annotation><xs:documentation>Uses dc:identifier minOccurs="1", mlo:start, xcri:end, xcri:studyMode.</xs:documentation></xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="xcri:presentationDType">
+					<xs:sequence>
+						<xs:element name="accessRequirements" type="hearDescriptionDType" minOccurs="0" maxOccurs="1">
+						</xs:element>
+						<xs:element name="minimumStandards" type="hearDescriptionDType" minOccurs="0" maxOccurs="1">
+
+						</xs:element>
+						<xs:element name="duration" type="durationDType" minOccurs="0"/>
+						<xs:element name="languageOfInstruction" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element name="languageOfAssessment" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+						<xs:element name="assessment" type="assessmentDType" minOccurs="0" maxOccurs="unbounded"/>
+					</xs:sequence>
+					<xs:attribute name="idRef" type="idRefDType"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="provider">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="xcri:providerDType">
+					<xs:annotation><xs:documentation>Uses the following commonElements: dc:identifier, dc:title</xs:documentation>
+					</xs:annotation>
+					<xs:sequence>
+						<xs:element name="providerStatus" type="hearDescriptionDType" minOccurs="1" maxOccurs="1">
+						</xs:element>			
+						<xs:element ref="course" minOccurs="1" maxOccurs="unbounded"/>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="qualification">
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="mlo:qualificationDType">
+					<xs:annotation><xs:documentation>Uses the following from qualificationDType: dc:identifier minOccurs="1", dc:title minOccurs="1" and refinements of descriptionDType</xs:documentation></xs:annotation>
+					<xs:sequence>
+						<xs:element name="regulations" type="hearDescriptionDType" minOccurs="1" maxOccurs="1"/>						
+						<xs:element name="dualAward" type="hearDescriptionDType" minOccurs="0" maxOccurs="1"/>
+						<xs:element name="professionalStatus" type="hearDescriptionDType" minOccurs="0" maxOccurs="1"/>
+						<xs:element name="furtherStudy" type="hearDescriptionDType" minOccurs="0" maxOccurs="1"/>
+						<xs:element name="terminalAward" type="hearDescriptionDType" minOccurs="0" maxOccurs="1"/>
+						<xs:element ref="dc:subject" minOccurs="1" maxOccurs="unbounded"/>
+						<xs:element name="level" type="levelDType" minOccurs="1"/>
+						<xs:element name="qualificationHolderTitle" type="xs:string" minOccurs="0" maxOccurs="1"/>
+						<xs:element name="issueDateQualification" type="xs:date" minOccurs="1"/>
+						<xs:element name="awardedBy" type="awardedByDType" minOccurs="1"/>
+					</xs:sequence>
+					<xs:attribute name="idRef" type="idRefDType"/>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>			
+	</xs:element>
+	
+	<!-- Root element -->
+	
+	<xs:element name="achievementReport" type="achievementReportDType"/>
+	
+	<!-- Extra namespace elements -->
+	
+	<xs:complexType name="husid">
+		<xs:annotation>
+			<xs:documentation>Validation of HUSID.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+		<xs:restriction base="dc:SimpleLiteral">
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:pattern value="[0-9]{13}"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:complexType name="uln">
+		<xs:annotation>
+			<xs:documentation>Validation of ULN.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[1-9][0-9]{9}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:complexType name="ukprn">
+		<xs:annotation>
+			<xs:documentation>Validation of UKPRN.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:restriction base="dc:SimpleLiteral">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[1-9][0-9]{7}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:restriction>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:schema>
