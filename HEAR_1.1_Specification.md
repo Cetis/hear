@@ -9,7 +9,7 @@ layout: default
 
 ### Status
 
-This is working towards HEAR 1.1
+This is the now agreed HEAR 1.1
 
 Changes from 1.0c:
 
