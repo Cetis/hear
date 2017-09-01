@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-# HEAR 1.1 Specification (Draft)
+# HEAR 1.1 Specification
 
 ## About
 
