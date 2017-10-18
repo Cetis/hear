@@ -39,7 +39,7 @@ Further information about the HEAR:
     Committee](http://www.publications.parliament.uk/pa/cm200809/cmselect/cmdius/170/170we80.htm "http://www.publications.parliament.uk/pa/cm200809/cmselect/cmdius/170/170we80.htm") ( January 2009)
 -   [Article by Professor Bob
     Burgess](http://www.independent.co.uk/news/education/higher/bob-burgess-i-hope-student-records-make-degree-classes-obsolete-1814588.html "http://www.independent.co.uk/news/education/higher/bob-burgess-i-hope-student-records-make-degree-classes-obsolete-1814588.html") (November 2009)
--   [Technical architecture considerations for implementing the HEAR](Technical_architecture_considerations_for_implementing_the_HEAR.md) (2010)
+-   [Technical architecture considerations for implementing the HEAR](technical_architecture_considerations_for_implementing_the_HEAR.md) (2010)
 
 ##  Specification Materials
 
