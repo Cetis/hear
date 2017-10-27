@@ -52,8 +52,7 @@ then pass their HEAR to relying parties, who can verify whether the
 document has been tampered with since it was issued by examining the
 digital signature.
 
-![Standalone Document Model diagram](images/hear_type1.png){width="554"
-height="584"}
+![Standalone Document Model diagram](images/hear_type1.png)
 
 ### Type 2: Public Online Document Model
 
@@ -69,8 +68,7 @@ Note that this model does not also preclude the Type 1 model, as the
 graduate themselves may choose to download and directly distribute the
 document.
 
-![Public Online Document Model diagram](images/hear_type2.png){width="543"
-height="578"}
+![Public Online Document Model diagram](images/hear_type2.png)
 
 ### Type 3: Ticket Release Model
 
@@ -84,8 +82,7 @@ verify the HEAR. The difference in this scenario is that without a valid
 ticket, each of which is keyed to a specific HEAR document, access to
 HEAR documents is denied.
 
-![Ticket Release Model diagram](images/hear_type3.png){width="547"
-height="578"}
+![Ticket Release Model diagram](images/hear_type3.png)
 
 Note that the URL and access ticket may in fact take the form of a
 standard link containing a parameter, e.g.:
@@ -120,8 +117,7 @@ Depending on requirements the relying party may need to register and
 login to make use of the service, in addition to possessing a valid
 ticket.
 
-![Limited-Use Ticket Release Model diagram](images/hear_type4.png){width="558"
-height="577"}
+![Limited-Use Ticket Release Model diagram](images/hear_type4.png)
 
 ### Type 5: Document Share Model
 
@@ -148,8 +144,7 @@ The primary difference between Type 4 and Type 5 systems is that the
 Type 5 system does not share any physical documents, but instead offers
 online access rather like Google Docs.
 
-![Document Share Model diagram](images/hear_type5.png){width="570"
-height="515"}
+![Document Share Model diagram](images/hear_type5.png)
 
 ### Multiple models
 
