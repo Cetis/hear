@@ -547,7 +547,7 @@
 	<xs:element name="professionalStatus" type="hearDescriptionDType"/>
 	<xs:element name="provider" type="providerDType"/>	
 	<xs:element name="providerStatus" type="hearDescriptionDType"/>
-	<xs:element name="qualification"/>
+	<xs:element name="qualification" type="qualificationDType"/>
 	<xs:element name="qualificationHolderTitle" type="xs:string"/>
 	<xs:element name="recognisedActivities" type="hearDescriptionDType"/>
 	<xs:element name="referenceData" type="referenceDataDType"/>
